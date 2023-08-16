@@ -11,7 +11,7 @@ $teachersilist = getAllTeachersList();
           <table width="100%">
             <tr>
               <td><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></td>
-              <td align = "center"><h1>School Management System</h1></td>
+              <td align = "center"><h1>Online Student management system</h1></td>
               <td align = "right">
                 <a href="../Controller/logout.php">Logout</a>
               </td>

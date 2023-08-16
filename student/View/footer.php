@@ -1,5 +1,5 @@
 <tr>
-        <td align="center" colspan="2" >Copyright Ⓒ 2023</td>
+        <td align="center" colspan="2" >Copyright &copy; 2023</td>
       </tr>
 
     </table>

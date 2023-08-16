@@ -20,7 +20,7 @@
           </td>
       </tr>
       <tr>
-        <td align="center" height="150px" weight="150px" colspan="2"><h1>School Management System</h1></td>
+        <td align="center" height="150px" weight="150px" colspan="2"><h1>Online Student management system</h1></td>
       </tr>
       <?php include("TeacherFooter.php") ?>
     </table>
