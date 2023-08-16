@@ -5,7 +5,7 @@
 	$name = $_REQUEST['name'];
 
 	$con = mysqli_connect('localhost', 'root', '', 'school_management_system');
-	$sql = "select * from librarian where id like '%{$name}%'";
+	$sql = "select * from Officer where id like '%{$name}%'";
 	$result = mysqli_query($con, $sql);
 
 	$response = "<table border=1 width='100%' cellspacing = 0 >
@@ -27,7 +27,7 @@
               <td>{$row['mobile']}</td>
               <td>{$row['gender']}</td>
               <td>{$row['dob']}</td>
-              <td> <a href='editLibrarian.php?id={$row['id']}'> Edit </a> | <a href='deleteLibrarian.php?id={$row['id']}'> Delete </a>  </td>
+              <td> <a href='editOfficer.php?id={$row['id']}'> Edit </a> | <a href='deleteOfficer.php?id={$row['id']}'> Delete </a>  </td>
 						</tr>";
 	}
 

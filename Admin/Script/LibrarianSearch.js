@@ -6,7 +6,7 @@ function ajax(){
 	const xhttp	= new XMLHttpRequest();
 
 
-  xhttp.open('GET', '../View/LibrarianSearch.php?name='+name, true);
+  xhttp.open('GET', '../View/OfficerSearch.php?name='+name, true);
 	xhttp.send();
 
 	xhttp.onreadystatechange = function(){

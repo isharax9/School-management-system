@@ -1,6 +1,6 @@
 <?php
-  include_once('../model/librarianModel.php');
+  include_once('../model/OfficerModel.php');
   $id = $_GET['id'];
   $deletemyinfo = deleteUserbyid($id);
-  header('location: ../view/viewLibrarian.php');
+  header('location: ../view/viewOfficer.php');
 ?>

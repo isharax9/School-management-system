@@ -1,16 +1,16 @@
 <?php
-	$title= "Update Librarian";
+	$title= "Update Officer";
 	$js = "../Script/editValidation.js";
 	include('header.php');
-	include_once('../model/librarianModel.php');
+	include_once('../model/OfficerModel.php');
   $id = $_GET['id'];
   $updatemyinfo = getUserbyid($id);
   $_SESSION['id'] = $id;
 ?>
 					<div id="sidebar" class="">
                 <ul>
-                  <li><a href="addLibrarian.php">Add Librarian</a></li>
-                  <li><a href="viewLibrarian.php">View Librarian</a></li>
+                  <li><a href="addOfficer.php">Add Officer</a></li>
+                  <li><a href="viewOfficer.php">View Officer</a></li>
                   <li><a href="dashboard.php">Dashbord</a></li>
                   <li><a href="../Controller/logout.php">Logout</a></li>
 
@@ -18,7 +18,7 @@
 							</div>
               </td>
               <td>
-                <form id="inform" action="../controller/updateCheckLibrarian.php" onsubmit="return validation()" method="post">
+                <form id="inform" action="../controller/updateCheckOfficer.php" onsubmit="return validation()" method="post">
 
                 <fieldset>
                   <legend>Update Information</legend>

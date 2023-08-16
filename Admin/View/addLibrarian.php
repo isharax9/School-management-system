@@ -1,12 +1,12 @@
 <?php
-	$title= "add librarian";
+	$title= "add Officer";
 	$js = "../Script/addValidation.js";
 	include('header.php');
 ?>
 								<div id="sidebar" class="">
                 <ul>
-                  <li><a href="addLibrarian.php">Add Librarian</a></li>
-                  <li><a href="viewLibrarian.php">View Librarian</a></li>
+                  <li><a href="addOfficer.php">Add Officer</a></li>
+                  <li><a href="viewOfficer.php">View Officer</a></li>
                   <li><a href="dashboard.php">Dashbord</a></li>
                   <li><a href="../Controller/logout.php">Logout</a></li>
 
@@ -17,7 +17,7 @@
               </td>
 
               <td>
-                <form  class="" id="myform" action="../Controller/regCheckLibrarian.php" onsubmit="return validation()" method="post">
+                <form  class="" id="myform" action="../Controller/regCheckOfficer.php" onsubmit="return validation()" method="post">
                   <fieldset >
                     <legend>REGESTRATION</legend>
                       <table align="center">

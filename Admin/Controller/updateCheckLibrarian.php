@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require_once('../model/librarianModel.php');
+	require_once('../model/OfficerModel.php');
 	if(isset($_POST['update']))
 	{
     $id = $_SESSION['id'];
@@ -19,7 +19,7 @@
 							if($check)
 							{
 								echo "info updated!";
-								header('location: ../view/viewLibrarian.php');
+								header('location: ../view/viewOfficer.php');
 							}
 							else
 							{

@@ -29,9 +29,9 @@
                     </td>
 
                     <td align = "center">
-                      <a href="addLibrarian.php"><img height="100px" weight="100px" src="../Resources/librarian.jpg" alt=""></a>
+                      <a href="addOfficer.php"><img height="100px" weight="100px" src="../Resources/Officer.jpg" alt=""></a>
                       <br>
-                      <a href="addLibrarian.php">Librarian</a>
+                      <a href="addOfficer.php">Officer</a>
                     </td>
 
 

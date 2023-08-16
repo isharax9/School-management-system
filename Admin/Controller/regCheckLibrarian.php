@@ -1,6 +1,6 @@
 <?php
   session_start();
-  include_once('../model/librarianModel.php');
+  include_once('../model/OfficerModel.php');
 	if(isset($_POST['submit'])){
 
 
@@ -31,7 +31,7 @@
 
                         $result = insert($userinfo);
                         if($result){
-                          header('location: ../view/addLibrarian.php');
+                          header('location: ../view/addOfficer.php');
                         }else{
                           echo "not insert";
                         }

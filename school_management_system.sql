@@ -165,10 +165,10 @@ INSERT INTO `leave_request` (`sl`, `id`, `name`, `leave_from`, `leave_to`, `acti
 -- --------------------------------------------------------
 
 --
--- Table structure for table `librarian`
+-- Table structure for table `Officer`
 --
 
-CREATE TABLE `librarian` (
+CREATE TABLE `Officer` (
   `slno` int(11) NOT NULL,
   `id` varchar(4) NOT NULL,
   `name` varchar(70) NOT NULL,
@@ -180,10 +180,10 @@ CREATE TABLE `librarian` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `librarian`
+-- Dumping data for table `Officer`
 --
 
-INSERT INTO `librarian` (`slno`, `id`, `name`, `email`, `mobile`, `gender`, `dob`, `password`) VALUES
+INSERT INTO `Officer` (`slno`, `id`, `name`, `email`, `mobile`, `gender`, `dob`, `password`) VALUES
 (1, '7001', 'akasha', 'akash@gmail.com', '01776304248', 'male', '1998-07-16', '123'),
 (2, '7002', 'arnob', 'arnob@gmail.com', '01756855555', 'male', '2003-02-05', '12341234@'),
 (3, '7003', 'rahim', 'rahim@gmail.com', '01715846752', 'male', '1988-06-27', '1234'),
@@ -193,10 +193,10 @@ INSERT INTO `librarian` (`slno`, `id`, `name`, `email`, `mobile`, `gender`, `dob
 -- --------------------------------------------------------
 
 --
--- Table structure for table `librariannotice`
+-- Table structure for table `Officernotice`
 --
 
-CREATE TABLE `librariannotice` (
+CREATE TABLE `Officernotice` (
   `noticeid` int(4) NOT NULL,
   `noticetitle` varchar(40) NOT NULL,
   `noticedetails` varchar(200) NOT NULL,
@@ -204,10 +204,10 @@ CREATE TABLE `librariannotice` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `librariannotice`
+-- Dumping data for table `Officernotice`
 --
 
-INSERT INTO `librariannotice` (`noticeid`, `noticetitle`, `noticedetails`, `time`) VALUES
+INSERT INTO `Officernotice` (`noticeid`, `noticetitle`, `noticedetails`, `time`) VALUES
 (1, 'New books now available on our library', 'New books now available on our library. Please bring your student id along to borrow books', '2021-04-14 00:00:00'),
 (3, 'Php and mysql with web', 'learn webdevelopment to read Php and mysql  book.Available in our library.', '2021-04-14 00:00:00'),
 (4, 'learn webdevelopment', 'learn webdevelopmentlearn webdevelopmentlearn webdevelopmentlearn webdevelopment', '0000-00-00 00:00:00');
@@ -472,15 +472,15 @@ ALTER TABLE `leave_request`
   ADD PRIMARY KEY (`sl`);
 
 --
--- Indexes for table `librarian`
+-- Indexes for table `Officer`
 --
-ALTER TABLE `librarian`
+ALTER TABLE `Officer`
   ADD PRIMARY KEY (`slno`);
 
 --
--- Indexes for table `librariannotice`
+-- Indexes for table `Officernotice`
 --
-ALTER TABLE `librariannotice`
+ALTER TABLE `Officernotice`
   ADD PRIMARY KEY (`noticeid`);
 
 --
@@ -560,15 +560,15 @@ ALTER TABLE `leave_request`
   MODIFY `sl` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
--- AUTO_INCREMENT for table `librarian`
+-- AUTO_INCREMENT for table `Officer`
 --
-ALTER TABLE `librarian`
+ALTER TABLE `Officer`
   MODIFY `slno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
--- AUTO_INCREMENT for table `librariannotice`
+-- AUTO_INCREMENT for table `Officernotice`
 --
-ALTER TABLE `librariannotice`
+ALTER TABLE `Officernotice`
   MODIFY `noticeid` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
