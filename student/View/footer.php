@@ -1,8 +1,9 @@
 <tr>
-        <td align="center" colspan="2" >Copyright &copy; 2023</td>
-      </tr>
+  <td align="center">Developed by, Ishara Lakshitha Bandara &copy; 2023</td>
+</tr>
 
-    </table>
+</table>
 
-  </body>
+</body>
+
 </html>

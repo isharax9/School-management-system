@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>LOGIN</title>
     <link rel="stylesheet" href="../Style/adminlogin.css">
+    <link rel="stylesheet" href="../Home/css/bootstrap.css" />
     <style media="screen">
     #error_messege{
       color: White;
@@ -28,7 +29,7 @@
               <td><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></td>
               <td align = "center"><h1>Online Student management system</h1></td>
               <td align = "right">
-                <a href="../../Home/index.html">Back</a>
+                <a href="../../Home/index.html"><Button class="btn btn-danger">Back</Button></a>
               </td>
             </tr>
           </table>

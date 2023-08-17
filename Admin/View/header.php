@@ -27,6 +27,7 @@
       }
 			</style>
 		<script src="<?=$js?>"></script>
+    <link rel="stylesheet" href="../Home/css/bootstrap.css" />
 
   </head>
   <body>

@@ -1,5 +1,5 @@
 <tr>
-  <td align="center" >Copyright &copy; 2023</td>
+  <td align="center">Developed by, Ishara Lakshitha Bandara &copy; 2023</td>
 </tr>
 
 </table>
