@@ -40,8 +40,7 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`) VALUES
 ('1001', 'Anirban Saha', 'anirban@gmail.com', '1234567@'),
-('1002', 'Anik', 'anik@gmial.com', '1234'),
-('1005', 'karim', 'karim@gmail.com', 'anik@anik');
+
 
 -- --------------------------------------------------------
 

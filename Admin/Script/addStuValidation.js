@@ -51,8 +51,8 @@ function validation(){
             error_messege.innerHTML = text;
             return false;
           }
-          if (mobile.length != 11){
-            text = "Mobile Number must be 11 digit";
+          if (mobile.length != 10){
+            text = "Mobile Number must be 10 digit";
             error_messege.innerHTML = text;
             return false;
           }

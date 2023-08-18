@@ -67,7 +67,7 @@
                     <input type="submit" id="submit" name="submit" value="LOGIN">
                     
                     
-                    <button class="btn btn-primary" ><a class="link-info" href="regester.php">SIGN UP</a></button>
+                    
                   </fieldset>
                 </form>
             </td>

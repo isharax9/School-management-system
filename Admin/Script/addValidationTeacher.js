@@ -49,7 +49,7 @@ function validation(){
             return false;
           }
           if (mobile.length != 10){
-            text = "Mobile Number must be 11 digit";
+            text = "Mobile Number must be 10 digit";
             error_messege.innerHTML = text;
             return false;
           }
