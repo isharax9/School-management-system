@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`) VALUES
-('1001', 'Anirban Saha', 'anirban@gmail.com', '1234567@'),
+('1000', 'Ishara Lakshitha Admin', 'ishara@gmail.com', '11010001.?'),
 
 
 -- --------------------------------------------------------
@@ -90,11 +90,11 @@ CREATE TABLE `course` (
 --
 
 INSERT INTO `course` (`id`, `course_name`, `class`, `description`) VALUES
-(1, 'Bangla 2nd Paper', 'Eight', 'Text Book Approved by NCTB'),
-(3, 'Bangla 2nd paper', 'Six', 'Text Book Approved by NCTB'),
-(4, 'English 1st paper', 'Six', 'Text Book Approved by NCTB'),
-(5, 'English 2nd Paper', 'Six', 'Text Book Approved by NCTB'),
-(6, 'General math', 'Eight', 'Text Book Approved by NCTB');
+(1, 'Web Programming 2nd Paper', 'Eight', 'Text Book Approved by NCTB'),
+(3, 'Web Programming 2nd paper', 'Six', 'Text Book Approved by NCTB'),
+(4, 'IELTS 1st paper', 'Six', 'Text Book Approved by NCTB'),
+(5, 'IELTS 2nd Paper', 'Six', 'Text Book Approved by NCTB'),
+(6, 'General CombinedMaths', 'Eight', 'Text Book Approved by NCTB');
 
 -- --------------------------------------------------------
 
@@ -117,7 +117,7 @@ CREATE TABLE `edit_student` (
 --
 
 INSERT INTO `edit_student` (`id`, `name`, `email`, `mobile`, `gender`, `dob`, `p_address`) VALUES
-('4002', 'Arko', 'arko@gmail.com', '01769451236', 'male	', '1997-11-20', 'Dhaka, Bangladesh');
+('4002', 'Arko', 'arko@gmail.com', '01769451236', 'male	', '1997-11-20', 'Dhaka, Web Programmingdesh');
 
 -- --------------------------------------------------------
 
@@ -296,12 +296,12 @@ CREATE TABLE `routine` (
 --
 
 INSERT INTO `routine` (`day`, `10:00-11:00`, `11:00-12:00`, `12:00-01:00`, `01:00-02:00`, `02:00-03:00`, `03:00-04:00`) VALUES
-('Saturday', 'Bangla', 'English', 'Math', 'Bangladesh and global studies', 'Religion', 'Physical education and health'),
-('Sunday', 'Physical education and health', 'Religion', 'Math', 'Bangla', 'Bangladesh and global studies', 'English'),
-('Monday', 'Bangla', 'English', 'Bangladesh and global studies', 'Math', 'Religion', 'Physical education and health'),
-('Tuesday', 'English', 'Bangla', 'Bangladesh and global studies', 'Math', 'Physical education and health', 'Religion'),
-('Wednesday', 'Bangladesh and global studies', 'English', 'Bangla', 'Math', 'Religion', 'Physical education and health'),
-('Thursday', 'Bangladesh and global studies', 'Bangla', 'Math', 'Religion', 'English', 'Physical education and health');
+('Saturday', 'Web Programming', 'IELTS', 'CombinedMaths', 'Physics', 'Chemistry', 'ReactNative'),
+('Sunday', 'ReactNative', 'Chemistry', 'CombinedMaths', 'Web Programming', 'Physics', 'IELTS'),
+('Monday', 'Web Programming', 'IELTS', 'Physics', 'CombinedMaths', 'Chemistry', 'ReactNative'),
+('Tuesday', 'IELTS', 'Web Programming', 'Physics', 'CombinedMaths', 'ReactNative', 'Chemistry'),
+('Wednesday', 'Physics', 'IELTS', 'Web Programming', 'CombinedMaths', 'Chemistry', 'ReactNative'),
+('Thursday', 'Physics', 'Web Programming', 'CombinedMaths', 'Chemistry', 'IELTS', 'ReactNative');
 
 -- --------------------------------------------------------
 
@@ -403,9 +403,9 @@ INSERT INTO `teacher` (`id`, `name`, `email`, `mobile`, `gender`, `dob`, `subjec
 ('2001', 'Kowshik Chakraborty', 'kowshik@gmail.com', '01764199181', 'male', '1984-08-09', '', '4567'),
 ('2002', 'nahin all', 'nahin@gmail.com', '01711845611', 'male', '2009-07-15', '', '1234@1234'),
 ('2003', 'anik saha', 'a@gmail.com', '01745361245', 'male', '2016-02-09', '', '12341234@'),
-('2006', 'kowshik sss', 's@s.com', '01756984231', 'male', '2013-01-02', 'Math', '12345@@123'),
+('2006', 'kowshik sss', 's@s.com', '01756984231', 'male', '2013-01-02', 'CombinedMaths', '12345@@123'),
 ('2008', 'John', 'john@gmail.com', '01758964512', 'male', '2021-04-23', '', '1234567!'),
-('2009', 'Kowshik Chakraborty', 'kowshik@gmail.com', '01754697845', 'Male', '2013-06-23', 'Math', '1234567@'),
+('2009', 'Kowshik Chakraborty', 'kowshik@gmail.com', '01754697845', 'Male', '2013-06-23', 'CombinedMaths', '1234567@'),
 ('2011', 'anirban', 'anirban@gmaill.com', '01711814155', 'male', '2019-03-16', '', '12345678@'),
 ('2013', 'anirban Saha', 'anirban@gmail.com', '01711811415', 'male', '2014-03-20', '', '12345678@'),
 ('2014', 'anik', 'a@a.com', '01776304244', 'female', '2021-03-31', '', '1234567@@');

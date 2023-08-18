@@ -69,7 +69,7 @@
       </td>
     </tr>
     <tr>
-      <td align="center">Copyright Ⓒ 2021</td>
+    <td align="center">Developed by, Ishara Lakshitha Bandara &copy; 2023</td>
     </tr>
   </table>
 </body>

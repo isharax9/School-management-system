@@ -19,7 +19,7 @@
               <td>
                 <form  class="" id="myform" action="../Controller/regCheckOfficer.php" onsubmit="return validation()" method="post">
                   <fieldset >
-                    <legend>REGESTRATION</legend>
+                    <legend class="text3" align="center">Officer Registration</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">
@@ -68,8 +68,8 @@
                       </table>
                       <hr>
                       <center>
-                        <input type="submit" id="submit" name="submit" value="Submit">
-                        <input type="reset" id="reset" name="reset" value="Reset">
+                        <input type="submit" id="" name="submit" value="Submit"> |
+                        <input type="reset" id="" name="reset" value="Reset">
                     </center>
                   </fieldset>
                 </form>

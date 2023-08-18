@@ -1,5 +1,5 @@
 <?php
 
-	header('location: View/OfficerLogin.php');
+	header('location: view/adminlogin.php');
 
 ?>

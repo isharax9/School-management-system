@@ -1,35 +1,31 @@
 <?php
-	
-    $booktitle = $_REQUEST['title'];
+
+
+	$name = $_REQUEST['name'];
 
 	$con = mysqli_connect('localhost', 'root', '', 'school_management_system');
-	$sql = "select * from book_info where title like '%{$booktitle}%'";
+	$sql = "select * from book_info where title like '%{$name}%'";
 	$result = mysqli_query($con, $sql);
 
-	$response = "<table border=1>
-    <tr>
-    <th>Serial No.</th>
-    <th>ISBN</th>
-    <th>Book Title</th>
-    <th>Author</th>
-    <th>Edition</th>
-    <th>Categories</th>
-    <th>Book Item No.</th>
-    <th>Action</th>
-</tr>";
+	$response = "<table border=1 width='100%' cellspacing = 0 >
+					<tr align = 'center'>
+            <td>ISBN</td>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Edition</td>
+						<td>categories</td>
+						<td>Book Copy</td>
+					</tr>";
 
 	while ($row = mysqli_fetch_assoc($result)) {
-		$response .= 	"<tr>
-             <td>{$row['sl']}</td>
+		$response .= 	"<tr align = 'center'>
               <td>{$row['isbn']}</td>
-			  <td>{$row['title']}</td>
+							<td>{$row['title']}</td>
               <td>{$row['author']}</td>
               <td>{$row['edition']}</td>
-              <td>{$row['categories']}</td>
-              <td>{$row['bookcopy']}</td>
-              <td><a href='viewBookInfo.php?serialno={$row['sl']}'> View</a> 
-              | <a href='editBookInfo.php?serialno={$row['sl']}'>UPDATE</a> 
-              | <a href='deleteBookInfo.php?serialno={$row['sl']}'>DELETE</a> </td>
+							<td>{$row['categories']}</td>
+							<td>{$row['bookcopy']}</td>
+
 						</tr>";
 	}
 
