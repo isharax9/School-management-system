@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>LOGIN</title>
     <link rel="stylesheet" href="../Style/adminlogin.css">
-    <link rel="stylesheet" href="../Home/css/bootstrap.css" />
+    <link rel="stylesheet" href="../Style/bootstrap.css" />
     <style media="screen">
     #error_messege{
       color: White;
@@ -21,15 +21,14 @@
     <script src="../Script/adminloginVal.js"></script>
   </head>
   <body>
-    <table border="1" cellspacing="0" width="100%" >
+    <table border="0" cellspacing="0" width="100%" >
       <tr>
         <td>
           <table width="100%">
             <tr>
               <td><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></td>
-              <td align = "center"><h1>Online Student management system</h1></td>
-              <td align = "right">
-                <a href="../../Home/index.html"><Button class="btn btn-danger">Back</Button></a>
+              <td align = "center"><h1 class="text4">School management system</h1></td>
+              <td align = "right"><a href="../../Home/index.html"><Button class="btn btn-danger">Back</Button></a>
               </td>
             </tr>
           </table>
@@ -37,15 +36,15 @@
       </tr>
       <tr>
         <td>
-          <div id="formtable" class="">
+          <div id="formtable" class="table">
 
 
-          <table  align="center" >
+          <table  align="center" class="table-danger" border="0">
             <tr>
               <td>
                 <form class="" id="inform" action="../Controller/logCheck.php" onsubmit="return validation()" method="post">
                   <fieldset>
-                    <legend>LOGIN</legend>
+                    <legend align="center">Admin Login</legend>
                     <table>
                       <tr>
                         <td colspan="2">
@@ -66,9 +65,9 @@
                     <input type="checkbox" name="" value=""> Remember Me <br>
                     <br>
                     <input type="submit" id="submit" name="submit" value="LOGIN">
-                    <a href="ForgotPassword.php">FORGOT PASSWORD?</a>
-                    <br>
-                    <a href="regester.php">SIGN UP</a>
+                    
+                    
+                    <button class="btn btn-primary" ><a class="link-info" href="regester.php">SIGN UP</a></button>
                   </fieldset>
                 </form>
             </td>
@@ -80,10 +79,10 @@
       </tr>
 
       <tr>
-        <td align="center" >Copyright Ⓒ 2021</td>
+      <td align="center">Developed by, Ishara Lakshitha Bandara &copy; 2023</td>
       </tr>
 
     </table>
-
+    
   </body>
 </html>

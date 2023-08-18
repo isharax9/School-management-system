@@ -35,7 +35,11 @@ input[type="password"] {
   font-variant: normal;
   text-transform: capitalize;
 
- 
+  color: #3939f3;
+  background: #ffffff;
+  text-shadow: 1px 1px 0px #ffffff, 3px 2px 0px rgba(0, 0, 0, 0.15);
+  color: #552bff;
+  background: #ffffff;
 }
 
 .text4 {
