@@ -114,7 +114,7 @@
 
   const getUID = prefix => {
     do {
-      prefix += Math.floor(Math.random() * MAX_UID);
+      prefix += CombinedMaths.floor(CombinedMaths.random() * MAX_UID);
     } while (document.getElementById(prefix));
     return prefix;
   };
@@ -320,7 +320,7 @@
     if (isCycleAllowed) {
       index = (index + listLength) % listLength;
     }
-    return list[Math.max(0, Math.min(index, listLength - 1))];
+    return list[CombinedMaths.max(0, CombinedMaths.min(index, listLength - 1))];
   };
 
   /**
@@ -1065,7 +1065,7 @@
       this._deltaX = event.touches && event.touches.length > 1 ? 0 : event.touches[0].clientX - this._deltaX;
     }
     _handleSwipe() {
-      const absDeltaX = Math.abs(this._deltaX);
+      const absDeltaX = CombinedMaths.abs(this._deltaX);
       if (absDeltaX <= SWIPE_THRESHOLD) {
         return;
       }
@@ -2326,7 +2326,7 @@
     getWidth() {
       // https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth#usage_notes
       const documentWidth = document.documentElement.clientWidth;
-      return Math.abs(window.innerWidth - documentWidth);
+      return CombinedMaths.abs(window.innerWidth - documentWidth);
     }
     hide() {
       const width = this.getWidth();

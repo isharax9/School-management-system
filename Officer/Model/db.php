@@ -1,16 +1,14 @@
 <?php
+$host = "localhost";
+$user = "root";
+$dbpass = '';
+$db = "school_management_system";
 
-	$dbuser = 'root';
-	$dbpass = '';
-	$host 	= 'localhost';
-	$dbname	= 'school_management_system';
+function getConnection(){
+    global $host,$user,$dbpass,$db;
+    $conn = mysqli_connect($host,$user,$dbpass,$db);
+    return $conn;
+}
 
-
-	function getConnection(){
-
-		global $dbname, $dbpass, $dbuser, $host;
-		$conn = mysqli_connect($host, $dbuser, $dbpass, $dbname);
-		return $conn;
-	}
 
 ?>

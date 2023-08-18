@@ -1,0 +1,33 @@
+#myform{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#submit{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+#submit:hover {
+  opacity: 0.8;
+}
+#reset{
+  width: auto;
+  color: white;
+  padding: 5px 10px;
+  background-color: #f44336;
+}
+#reset:hover {
+  opacity: 0.8;
+}
+input[type=text],input[type=email], input[type=password] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}

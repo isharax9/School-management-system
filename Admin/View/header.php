@@ -27,7 +27,8 @@
       }
 			</style>
 		<script src="<?=$js?>"></script>
-    <link rel="stylesheet" href="../Home/css/bootstrap.css" />
+    <link rel="stylesheet" href="../Style/bootstrap.css" />
+    <link rel="stylesheet" href="../Style/adminlogin.css"/>
 
   </head>
   <body>
@@ -36,11 +37,11 @@
         <td>
           <table width="100%">
             <tr id="header">
-              <td><a href="dashboard.php"><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></a></td>
-              <td align = "center"><h1>Online Student management system</h1></td>
-              <td align = "right">
-                <a href="dashboard.php">Back</a> |
-                <a href="../Controller/logout.php"><span class="tab">Logout</a>
+              <td align ="center" ><a href="dashboard.php"><img height="100px" weight="50px" src="../Resources/logo.png" alt=""></a></td>
+              <td align = "center"><h1 class="text4" >Online Student management system</h1></td>
+              <td align = "center">
+                <a href="dashboard.php"><button class="btn btn-outline-info">Back</button></a>
+                 <a href="../Controller/logout.php"><button class="btn btn-outline-danger">Logout</button></a>
 
               </td>
             </tr>
@@ -50,7 +51,7 @@
 
       <tr>
         <td>
-          <table width="100%" cellspacing="0" border="1">
+          <table width="100%" cellspacing="0" border="0" class="bg-light-subtle">
             <tr id="navigation">
               <td width="250px">
                 <center>
@@ -58,6 +59,6 @@
                   <h2>
 										<a href="viewProfile.php"><?php echo $_COOKIE['name'];?></a>
 									</h2>
-                  <p>(Admin)</p>
+                  <p class="text3"  >(Administrator)</p>
                 </center>
                 <hr>

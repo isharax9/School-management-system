@@ -16,7 +16,7 @@
               <td>
                 <form id="inform" class="" action="../Controller/addCheckCourse.php" onsubmit="return validation()" method="post">
                   <fieldset >
-                    <legend>Create Course</legend>
+                    <legend class="text3" align="center">Create Course</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">

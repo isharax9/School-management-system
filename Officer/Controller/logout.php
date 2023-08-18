@@ -1,7 +1,7 @@
 <?php
 
-	session_start();
-	unset($_SESSION['flag']);
-	header('location: ../View/Officerlogin.php');
+	setcookie('flag', true, time()-1, '/');
+	header('location: login.html');
+	header('location: ../view/adminlogin.php');
 
 ?>

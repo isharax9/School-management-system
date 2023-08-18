@@ -26,8 +26,8 @@
         <td>
           <table width="100%">
             <tr>
-              <td><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></td>
-              <td align = "center"><h1 class="text4">School management system</h1></td>
+              <td><img height="80px" weight="50px" src="../Resources/logo.png" alt=""></td>
+              <td align = "center"><h1 class="text4">Online Student Management System</h1></td>
               <td align = "right"><a href="../../Home/index.html"><Button class="btn btn-danger">Back</Button></a>
               </td>
             </tr>
@@ -39,12 +39,12 @@
           <div id="formtable" class="table">
 
 
-          <table  align="center" class="table-danger" border="0">
+          <table  align="center" class="table-primary" border="0">
             <tr>
               <td>
                 <form class="" id="inform" action="../Controller/logCheck.php" onsubmit="return validation()" method="post">
                   <fieldset>
-                    <legend align="center">Admin Login</legend>
+                    <legend align="center">Officer Login</legend>
                     <table>
                       <tr>
                         <td colspan="2">
@@ -67,7 +67,7 @@
                     <input type="submit" id="submit" name="submit" value="LOGIN">
                     
                     
-                    <button class="btn btn-primary" ><a class="link-info" href="regester.php">SIGN UP</a></button>
+                    
                   </fieldset>
                 </form>
             </td>
