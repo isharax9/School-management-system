@@ -26,7 +26,7 @@
               <td align="center">
                 <h1 class="text4">Online Student management system</h1>
               </td>
-              <td align="center">
+              <td align="left">
                 <a href="../../Home/index.html"><button class="btn btn-outline-dark">Back</button></a>
               </td>
             </tr>
@@ -38,10 +38,17 @@
           <table align="center">
             <tr>
               <td>
-                <form class="padded-form bg-primary-subtle" action="../Controller/logCheck.php" onsubmit="return val()" method="post">
+                <form class="padded-form bg-primary-subtle" id="inform" action="../Controller/logCheck.php" onsubmit="return val()" method="post">
                   <fieldset>
                     <legend align="center" class="text3">Student Login</legend>
                     <table>
+                      <tr>
+                        <td colspan="2">
+                          <center>
+                            <div id="error_messege">
+                            </div>
+                          </center>
+                      </tr>
                       <tr>
                         <td>ID</td>
                         <td> <input type="text" id="id" name="id" value=""></td>
@@ -54,12 +61,8 @@
                     <input type="checkbox" name="" value=""> Remember Me <br>
                     <br>
                     <input type="submit" id="submit" name="submit" value="LOGIN">
-                    <center>
-                      <div id="error_messege">
-                      </div>
-                    </center>
                   </fieldset>
-                </form><br>
+                </form>
               </td>
             </tr>
           </table>
