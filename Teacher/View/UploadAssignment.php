@@ -10,18 +10,24 @@ if (isset($_COOKIE['flag'])) {
   <html>
 
   <head>
-    <title>Teacher Dashboard</title>
+    <title>Add Assignment</title>
+    <style media="screen">
+      #error_messege {
+        color: blue;
+        font-weight: bold;
+      }
+    </style>
+    <script src="../Script/FileUploadCheck(script).js"></script>
   </head>
 
   <body>
     <table border="0" cellspacing="0" width="100%">
       <?php include("TeacherHeader.php") ?>
       <tr>
-
         <td width="250px">
           <div id="sidebar">
             <ul>
-                            <li><a href="TeacherDashboard.php">Dashboard</a></li>
+              <li><a href="TeacherDashboard.php">Dashboard</a></li>
               <li><a href="ViewProfile.php">View Profile</a></li>
               <li><a href="EditProfile.php">Edit Profile</a></li>
               <li><a href="StudentList.php">View Student's Profile</a></li>
@@ -29,7 +35,7 @@ if (isset($_COOKIE['flag'])) {
               <li><a href="UploadNotes.php">Add Lesson Notes</a></li>
               <li><a href="ViewUploadedNotes(Student).php">View Answer Sheets</a></li>
               <li><a href="NoticeBoard.php">Student Notices</a></li>
-              <li><a href="ViewSchoolNotice.php">Admin Notices</a></li>             
+              <li><a href="ViewSchoolNotice.php">Admin Notices</a></li>
               <li><a href="StudentListMarks.php">Student Marks</a></li>
               <li><a href="LeaveRequest.php">Student Leave Request</a></li>
               <li><a href="ChangePass.php">Reset Password</a></li>
@@ -37,27 +43,35 @@ if (isset($_COOKIE['flag'])) {
             </ul>
           </div>
         </td>
-
-
         <td>
-          <fieldset>
-            
-              <td><img height="450px" weight="50%" src="../Resources/Teacher.svg"></td>
-              <td><h2 class="text-primary">
-                - Logged in as 
-                <a href="ViewProfile.php"><button class=" textteacher btn btn-outline-primary btn-lg" ><?php echo $User['name']; ?></button></a>
-                Teacher -
-              </h2></td>
-                   
-              
-          </fieldset>
-        </td>
+          <table> 
+            <form class="" name="Upload" action="../Controller/UploadNotesCheck.php" method="post" enctype="multipart/form-data" onsubmit="return FileUpload()">
+             
+              <fieldset align="center">
 
+                <legend class="textlegend">Add Assignment</legend>
+                <Br></Br>
+                <input type="file" name="photo"><br>
+                <Hr>
+                <Div class="left"><input type="submit" name="submit" value="submit"></Div><br>
+                <a class="btn btn-outline-success" href="ViewUploadedNotes(Teacher).php" role="button"> View Uploaded Assignment</a>
+
+
+                <div id="error_messege"></div>
+
+
+              </fieldset>
+
+            </form>
+          </table>
+          <td align="center"><img height="200px" weight="300px" src="../Resources/cathode-ray-tube.jpg" alt=""></td>
+        </td>
       </tr>
 
     </table>
-    <?php include("TeacherFooter.php") ?>
+
   </body>
+  <?php include("TeacherFooter.php") ?>
 
   </html>
 

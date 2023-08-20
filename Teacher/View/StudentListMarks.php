@@ -34,7 +34,7 @@
               <li><a href="ViewProfile.php">View Profile</a></li>
               <li><a href="EditProfile.php">Edit Profile</a></li>
               <li><a href="StudentList.php">View Student's Profile</a></li>
-              <li><a href="UploadNotes.php">Add Assignment</a></li>
+              <li><a href="UploadAssignment.php">Add Assignment</a></li>
               <li><a href="UploadNotes.php">Add Lesson Notes</a></li>
               <li><a href="ViewUploadedNotes(Student).php">View Answer Sheets</a></li>
               <li><a href="NoticeBoard.php">Student Notices</a></li>

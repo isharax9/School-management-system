@@ -10,7 +10,7 @@ if (isset($_COOKIE['flag'])) {
   <html>
 
   <head>
-    <title>Add Assignment</title>
+    <title>Add Notes</title>
     <style media="screen">
       #error_messege {
         color: blue;
@@ -31,7 +31,7 @@ if (isset($_COOKIE['flag'])) {
               <li><a href="ViewProfile.php">View Profile</a></li>
               <li><a href="EditProfile.php">Edit Profile</a></li>
               <li><a href="StudentList.php">View Student's Profile</a></li>
-              <li><a href="UploadNotes.php">Add Assignment</a></li>
+              <li><a href="UploadAssignment.php">Add Assignment</a></li>
               <li><a href="UploadNotes.php">Add Lesson Notes</a></li>
               <li><a href="ViewUploadedNotes(Student).php">View Answer Sheets</a></li>
               <li><a href="NoticeBoard.php">Student Notices</a></li>
@@ -49,12 +49,12 @@ if (isset($_COOKIE['flag'])) {
              
               <fieldset align="center">
 
-                <legend class="textlegend">Add Assignment</legend>
+                <legend class="textlegend">Add lesson notes</legend>
                 <Br></Br>
                 <input type="file" name="photo"><br>
                 <Hr>
                 <Div class="left"><input type="submit" name="submit" value="submit"></Div><br>
-                <a class="btn btn-outline-success" href="ViewUploadedNotes(Teacher).php" role="button"> View Uploaded Assignment</a>
+                <a class="btn btn-outline-success" href="ViewUploadedNotes(Teacher).php" role="button"> View Uploaded Notes</a>
 
 
                 <div id="error_messege"></div>
