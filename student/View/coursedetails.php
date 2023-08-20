@@ -7,8 +7,8 @@ include('header.php');
 ?>
  
 <?php include('sideBar.php'); ?> 
-        <td>
-            <center><h2>Course Details</h2></center>
+        <td align="center">
+            <legend class="textlegend">Course Details</legend>
             <center>
                   <b>Find Course Info:</b><input type="text" onkeyup="ajax()" name="name" id="name">
                   <input type="button" name="" value="Find">

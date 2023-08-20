@@ -6,9 +6,9 @@ $viewmyleave = getleavebyid($_COOKIE['id']);
 ?>
 
 <?php include('sideBar.php'); ?> 
-        <td>
+        <td align="center">
             <fieldset>
-                <legend>View Leave Request</legend>
+                <legend class="textlegend">View Leave Request</legend>
             <form class="" action="" method="post"> 
                <table>
 

@@ -80,8 +80,8 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
                </table>
                
             </form>
-            </fieldset>
-            <a href="edit.php">Edit</a>
+            </fieldset><br>
+            <a href="edit.php" class="btn btn-outline-primary" role="button" >Edit</a>
         </td>
       </tr>
       <?php include('footer.php'); ?>

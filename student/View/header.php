@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('../Model/DatabaseConnection.php');
-$User = getUserById($_COOKIE['ID']);
+$User = getUserById($_COOKIE['id']);
 if(!isset($_COOKIE['flag']))
 {
 header('location: login.php');

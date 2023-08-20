@@ -6,9 +6,9 @@ $viewmyresult = getUserbyid($_COOKIE['id']);
 ?>
 
 <?php include('sideBar.php'); ?> 
-        <td>
+        <td align="center">
             <fieldset>
-                <legend>MY Result</legend>
+                <legend class="textlegend">MY Result</legend>
             <form class="" action="" method="post"> 
                <table>
                <tr>

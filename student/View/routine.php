@@ -6,9 +6,9 @@ include('header.php');
 ?>
 
 <?php include('sideBar.php'); ?> 
-        <td>
+        <td align="center">
           <fieldset>
-            <legend>Class Routine</legend>
+            <legend class="textlegend">Class Timetable</legend>
         <form class="" action="" method="post">
         <?php
                 echo "<table border = 1 width='100%' cellspacing = 0  >

@@ -7,10 +7,10 @@ include('header.php');
 <?php include('sideBar.php'); ?>
 
 
-<td>
+<td align="center">
 	<form class="" action="../controller/passCheck.php" onsubmit="return val()" method="post">
 		<fieldset>
-			<legend>CHANGE PASSWORD</legend>
+			<legend class="textlegend">CHANGE PASSWORD</legend>
 			<table>
 				<tr>
 					<td>Current Password:</td>

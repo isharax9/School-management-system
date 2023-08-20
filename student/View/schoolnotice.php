@@ -1,34 +1,34 @@
 <?php
-$title= "School Notice";
+$title = "School Notice";
 require_once('../Model/DatabaseConnection.php');
-$noticeList=getAllschoolnotice();
+$noticeList = getAllschoolnotice();
 include('header.php');
 ?>
 
-<?php include('sideBar.php'); ?> 
-        <td>
-            <form method="post" action="">
-                <fieldset>
-                    <legend>School Notice</legend>
-                    
-       
+<?php include('sideBar.php'); ?>
+<td align="center">
+    <form method="post" action="">
+        <fieldset>
+            <legend class="textlegend">School Notice</legend>
+
+
             <?php
-                echo "<table  width='100%' cellspacing = 0  >
+            echo "<table  width='100%' cellspacing=1 border=1 >
                 <tr align = 'center'>
                  
                     
                 </tr>";
-                for($i = 0; $i<count($noticeList); $i++){
-                    echo "<tr align = 'center'>
+            for ($i = 0; $i < count($noticeList); $i++) {
+                echo "<tr align = 'center'>
                     <td>{$noticeList[$i]['notice']}</td>
                     <td>(Time: {$noticeList[$i]['time']})</td>
                  
                 </tr>";
-                }
-                echo "</table>";
-                ?>
-                </fieldset>
-            </form>
-        </td>
-      </tr>
-      <?php include('footer.php'); ?>
+            }
+            echo "</table>";
+            ?>
+        </fieldset>
+    </form>
+</td>
+</tr>
+<?php include('footer.php'); ?>

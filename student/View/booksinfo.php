@@ -24,6 +24,7 @@ include('header.php');
                     <td>TITLE</td>
                     <td>AUTHOR</td>
                     <td>EDTION</td>
+                    
                 </tr>";
                 for($i = 0; $i<count($bookList); $i++){
                     echo "<tr align = 'center'>

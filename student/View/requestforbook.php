@@ -5,9 +5,9 @@ include('header.php');
 ?>
 
 <?php include('sideBar.php'); ?> 
-        <td>
+        <td align="center">
             <fieldset>
-                <legend>Request for Books </legend>
+                <legend class="textlegend">Request for Books </legend>
               
 
             <form class="" action="" method="post">

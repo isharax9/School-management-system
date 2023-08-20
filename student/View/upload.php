@@ -6,11 +6,11 @@ include('header.php');
 
 <?php include('sideBar.php'); ?>
  
-<td>
+<td align="center">
     <fieldset>
         <form class="" name="FilesUpload" action="../Controller/uploadCheck.php" onsubmit="return val()" method="post" enctype="multipart/form-data">
             <fieldset>
-                <legend>Upload</legend>
+                <legend class="textlegend">Upload assignments Answers</legend><br><br>
                 <input type="file" id="picture" name="picture"><br>
                 <hr>
                 <input type="submit" name="submit" value="submit">

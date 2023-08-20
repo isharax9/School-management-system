@@ -6,8 +6,8 @@ $GetNotice = getAllNotice();
 ?>
 
 <?php include('sideBar.php'); ?> 
-<td>
-                <center><h2>Teacher Notice</h2></center>
+<td align="center">
+                <legend class="textlegend">Teacher's Notice</legend> 
 
 								<?php
 								echo "<table border = 1 width='100%' cellspacing = 0  >
