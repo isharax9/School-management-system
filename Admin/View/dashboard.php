@@ -14,22 +14,22 @@ include('header.php');
 </td>
 
 <td>
-  <table id="box" border="0" width="100%"  cellspacing="">
-    <tr  >
+  <table id="box" border="0" width="100%" cellspacing="">
+    <tr>
       <td align="center">
-        <a href="addTeacher.php"><img height="100px" weight="100px" src="../Resources/Teacher.jpg" alt=""></a>
+        <a href="addTeacher.php"><img height="150px" weight="100px" src="../Resources/Teacher.svg" alt=""></a>
         <br>
         <a href="addTeacher.php">Teacher</a>
       </td>
 
       <td align="center">
-        <a href="addStudent.php"><img height="100px" weight="100px" src="../Resources/student.jpg" alt=""></a>
+        <a href="addStudent.php"><img height="150px" weight="100px" src="../Resources/student.svg" alt=""></a>
         <br>
         <a href="addStudent.php">Student</a>
       </td>
 
       <td align="center">
-        <a href="addOfficer.php"><img height="100px" weight="100px" src="../Resources/Officer.jpg" alt=""></a>
+        <a href="addOfficer.php"><img height="150px" weight="100px" src="../Resources/Customer Service Character.svg" alt=""></a>
         <br>
         <a href="addOfficer.php">Officer</a>
       </td>
@@ -38,32 +38,31 @@ include('header.php');
 
     <tr>
       <td align="center">
-        <a href="postNotice.php"><img height="100px" weight="100px" src="../Resources/notice.svg" alt=""></a>
+        <a href="postNotice.php"><img height="150px" weight="100px" src="../Resources/notice.svg" alt=""></a>
         <br>
         <a href="postNotice.php">Notice Board</a>
       </td>
 
       <td align="center">
-        <a href="libraryBook.php"><img height="100px" weight="100px" src="../Resources/libraryBook.jpg" alt=""></a>
+        <a href="StudentListMarks.php"><img height="150px" weight="100px" src="../Resources/marks.svg" alt=""></a>
         <br>
-        <a href="libraryBook.php">Check Results</a>
-      </td>
-      <td align="center">
-        <a href="leaveRequest.php"><img height="100px" weight="100px" src="../Resources/leaverequest.png" alt=""></a>
-        <br>
-        <a href="leaveRequest.php">Leave Request</a>
+        <a href="StudentListMarks.php">Check Results</a>
       </td>
 
-
-    </tr>
-
-    <tr>
       <td align="center">
-        <a href="addCourse.php"><img height="100px" weight="100px" src="../Resources/course.jpg" alt=""></a>
+        <a href="addCourse.php"><img height="150px" weight="100px" src="../Resources/courses.png" alt=""></a>
         <br>
         <a href="addCourse.php">Courses</a>
       </td>
 
+    </tr>
+    <tr>
+    <td align="center">
+      
+    </td>
+    
+
+
       <td align="center">
 
       </td>
@@ -71,7 +70,9 @@ include('header.php');
 
 
       <td align="center">
-
+<a href="leaveRequest.php"><img height="130px" weight="130px" src="../Resources/studyleave.svg" alt=""></a>
+      <br>
+      <a href="leaveRequest.php">Leave Request</a>
       </td>
     </tr>
 
@@ -80,6 +81,7 @@ include('header.php');
   </table>
 </td>
 </tr>
+<br>
 </table>
 </td>
 </tr>

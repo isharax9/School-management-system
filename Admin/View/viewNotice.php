@@ -12,7 +12,7 @@
 							</div>
               </td>
               <td>
-                 <center><h3>All Notice</h3></center>
+                 <center><h3 class="textlegend">All Notice</h3></center>
                 <?php
 								echo "<table border = 1 width='100%' cellspacing = 0  >
 								<tr align = 'center'>

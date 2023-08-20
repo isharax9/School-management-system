@@ -19,7 +19,7 @@ include('header.php');
 <td>
   <form class="" id="myform" action="../Controller/regCheckTeacher.php" method="post" onsubmit="return validation()">
     <fieldset align="center">
-      <legend>Teacher Registration</legend>
+      <legend class="textlegend">Teacher Registration</legend>
       <table align="center">
         <tr>
           <td colspan="2">

@@ -15,11 +15,11 @@
 
 								</div>
               </td>
-              <td>
+              <td align="center">
                 <form id="inform" action="../controller/updateCheckCourse.php" onsubmit="return validation()"  method="post">
 
                 <fieldset>
-                  <legend>Update Course</legend>
+                  <legend class="textlegend">Update Course</legend>
                     <table align="center">
 											<tr>
 												<td colspan="2">

@@ -17,7 +17,7 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 </td>
 
 <td align="center">
-<legend>Edit Profile Details</legend>
+<legend class="textlegend">Edit Profile Details</legend>
 	<form class="" id="inform" action="../Controller/editadminCheck.php" onsubmit="return validation()" method="post">
 		<table>
 			<tr>

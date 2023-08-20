@@ -40,7 +40,7 @@ if (!isset($_COOKIE['flag'])) {
       <td>
         <table width="100%">
           <tr id="header">
-            <td align="center"><a href="dashboard.php"><img height="100px" weight="50px" src="../Resources/logo.png"
+            <td align="center"><a href="dashboard.php"><img height="80px" weight="50px" src="../Resources/logo.png"
                   alt=""></a></td>
             <td align="center">
               <h1 class="text4">Online Student management system</h1>

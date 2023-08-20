@@ -19,7 +19,7 @@
               <td>
                 <form  class="" id="myform" action="../Controller/regCheckOfficer.php" onsubmit="return validation()" method="post">
                   <fieldset >
-                    <legend class="text3" align="center">Officer Registration</legend>
+                    <legend class="textlegend" align="center">Officer Registration</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">

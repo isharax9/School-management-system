@@ -16,7 +16,7 @@
               <td>
                 <form id="inform" class="" action="../Controller/addCheckCourse.php" onsubmit="return validation()" method="post">
                   <fieldset >
-                    <legend class="text3" align="center">Create Course</legend>
+                    <legend class="textlegend" align="center">Create Course</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">
@@ -37,6 +37,9 @@
                               <option value="Eight">Eight</option>
                               <option value="Nine">Nine</option>
                               <option value="Ten">Ten</option>
+                              <option value="Eight">OL</option>
+                              <option value="Nine">AL</option>
+                              <option value="Ten">Degree</option>
                             </select>
                           </td>
                         <tr>

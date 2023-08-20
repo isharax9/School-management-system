@@ -17,7 +17,7 @@
               </td>
 
               <td>
-                <center><h2>Teacher list</h2>
+                <center><h2 class="textlegend">Teacher list</h2>
 									<input type="text" name="name" id="name" onkeyup="ajax()" />
 									<input type="button" name="" value="Search">
 								</center>

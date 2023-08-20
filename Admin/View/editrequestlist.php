@@ -17,7 +17,7 @@
               </td>
 
               <td>
-                <center><h2>Student Information edit request list</h2></center>
+                <center><div class="textlegend">Student Information edit request list</div></center>
 								<?php
 								echo "<table border = 1 width='100%' cellspacing = 0  >
 								<tr align = 'center'>

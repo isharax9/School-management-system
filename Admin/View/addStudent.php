@@ -18,7 +18,7 @@ include('header.php');
   <form class="" id="inform" action="../Controller/regCheckStudent.php" onsubmit="return validation()"
     method="post">
     <fieldset>
-      <legend align="center">Student Registration </legend>
+      <legend class="textlegend" align="center">Student Registration </legend>
       <table align="center">
         <tr>
           <td colspan="2">

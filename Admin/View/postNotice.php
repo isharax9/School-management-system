@@ -10,10 +10,10 @@
                 </ul>
 							</div>
               </td>
-              <td>
+              <td align="center"> 
                 <form  class="" id="inform" action="../Controller/postCheckNotice.php" onsubmit="return validation()" method="post">
                   <fieldset align="center" >
-                    <legend>Notice</legend>
+                    <legend class="textlegend">Notice</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">

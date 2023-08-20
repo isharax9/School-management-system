@@ -17,11 +17,11 @@
                 </ul>
 							</div>
               </td>
-              <td>
+              <td align="center">
                 <form id="inform" action="../controller/updateCheckOfficer.php" onsubmit="return validation()" method="post">
 
                 <fieldset>
-                  <legend>Update Information</legend>
+                  <legend class="textlegend">Update Information</legend>
                     <table align="center">
 											<tr>
 												<td colspan="2">

@@ -18,11 +18,11 @@
                 </ul>
 							</div>
               </td>
-              <td>
+              <td align="center">
                 <form id="inform" action="../controller/editRequestCheckStudent.php" onsubmit="return validation()" method="post">
 
                 <fieldset>
-                  <legend>Edit student request</legend>
+                  <legend class="textlegend">Edit student request</legend>
                     <table align="center">
 											<tr>
 												<td colspan="2">

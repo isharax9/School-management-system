@@ -18,7 +18,7 @@ $UsersList = allUserList();
 
 <td>
 	<center>
-		<h2>Officer list</h2>
+		<h2 class="textlegend">Officer list</h2>
 		<input type="text" name="name" id="name" onkeyup="ajax()" />
 		<input type="button" name="" value="Search">
 	</center>
