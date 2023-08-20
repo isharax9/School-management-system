@@ -40,13 +40,12 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 			</tr>
 		</table>
 		<hr>
-		<br>
 		<a href="EditProfile.php"><button class="btn btn-dark" >Edit Profile</button></a>
 
 
 </td>
 </tr>
-</table>
+</table><?php include('footer.php'); ?>
 </fieldset>
 </td>
 </tr>
@@ -54,4 +53,3 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 
 
 
-<?php include('footer.php'); ?>

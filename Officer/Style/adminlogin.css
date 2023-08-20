@@ -36,10 +36,9 @@ input[type="password"] {
   text-transform: capitalize;
 
   color: #3939f3;
-  background: #ffffff;
+
   text-shadow: 1px 1px 0px #ffffff, 3px 2px 0px rgba(0, 0, 0, 0.15);
   color: #552bff;
-  background: #ffffff;
 }
 
 .text4 {
@@ -55,12 +54,11 @@ input[type="password"] {
   text-transform: uppercase;
 
   color: #000000;
-  background: #ffffff;
+
   text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
   color: #333333;
-  background: #ffffff;
 }
-.main-body{
+.main-body {
   background-image: url("/Home/Resources/background-body.svg");
   background-size: cover;
   background-position: center;

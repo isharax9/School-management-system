@@ -11,23 +11,24 @@
     }
   </style>
   <script src="../Script/LogCheck(script).js"></script>
-  <link rel="stylesheet" href="../css/bootstrap.css " />
+  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <link rel="stylesheet" href="../css/adminlogin.css" />
 </head>
 
 <body>
   <table border="1" cellspacing="0" width="100%">
     <tr>
       <td>
-        <table width="100%" class="table-bordered">
+        <table width="100%">
           <tr id="header">
-            <td><a href="dashboard.php"><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></a></td>
+            <td><a href=""><img height="80px" weight="50px" src="../Resources/logo.png" alt=""></a></td>
             <td align="center">
-              <h1>Online Student management system</h1>
+              <h1 class="text4">Online Student management system</h1>
             </td>
-            <td align="right">
+            <td align="center">
 
-              <a href="Registration.php">Registration</a>
-              <a href="../../Home/index.html">Back</a>
+
+              <a href="../../Home/index.html"><button class="btn btn-outline-dark">Back</button></a>
             </td>
           </tr>
         </table>
@@ -43,27 +44,30 @@
         </head>
 
         <body>
-          <table align="center" class=" table-primary" >
+          <table align="center">
             <tr>
               <td></td>
               <td>
-                <form method="post" id="LoginForm" action="../Controller/LogCheck.php" onsubmit="return LoginValid()">
-                  <fieldset width="5px">
-                    <legend>Teacher Login</legend>
+                <form class="padded-form bg-info-subtle" method="post" id="LoginForm" action="../Controller/LogCheck.php"
+                  onsubmit="return LoginValid()">
+                  <fieldset width="5px"><br><br>
+                    <legend align="center" class="text3">Teacher Login</legend><br>
                     <form class="" action="" method="post">
                       <table>
                         <tr>
                           <td>ID:</td>
                           <td><input type="text" id="id" name="ID" value=""></td>
                         </tr>
-                        <br>
+
                         <tr>
                           <td>Password:</td>
                           <td><input type="password" id="password" name="password" value=""></td>
                         </tr>
                       </table>
-                      <hr>
-                      <div align="center"><input type="submit" name="submit" value="Submit"><br><br><a href="Registration.php"><input type="button" name="Sign Up" value="Sign Up"></a></div>
+                      <input type="checkbox" name="" value=""> Remember Me <br>
+                    <br>
+                    <input type="submit" id="submit" name="submit" value="LOGIN"><br><br><br>
+
                       <center>
                         <div id="error_messege">
                         </div>
@@ -72,15 +76,18 @@
                   </fieldset>
                 </form>
               </td>
-              
+
             </tr>
           </table>
         </body>
-
         </html>
+        <br>
       </td>
+      
     </tr>
+    
     <?php include("TeacherFooter.php") ?>
+    
   </table>
   <script src="../Script/LogCheck(script).js"></script>
 </body>

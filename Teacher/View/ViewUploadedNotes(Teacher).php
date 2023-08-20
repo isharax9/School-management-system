@@ -1,92 +1,93 @@
 <?php
-	session_start();
-  require_once('../Model/DatabaseConnection.php');
-	$GetNotes = getAllTeacherNotes();
-	if(isset($_COOKIE['flag']))
-	{
+session_start();
+require_once('../Model/DatabaseConnection.php');
+$GetNotes = getAllTeacherNotes();
+if (isset($_COOKIE['flag'])) {
 ?>
 
 
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
+
   <head>
-    <title>Public Home</title>
+    <title>Uploaded Lesson Notes</title>
     <script src="../Script/TeacherUploadedNotesSearch(script).js"></script>
   </head>
+
   <body>
-    <table border="1" cellspacing="0" width="80%" >
-    <?php include("TeacherHeader.php") ?>
+    <table border="1" cellspacing="0" width="80%">
+      <?php include("TeacherHeader.php") ?>
       <tr>
-        <tr>
-            <td align="Left"><img height="80px" weight="80px" src="../Resources/Course.jpg" alt=""></td>
-            <td align="Center">
-            <b>
-              Uploaded Notes List
-            </b>
-            </td>
-          </tr>
-        <td height="150px" weight="150px">
-                <ul>
-                    <li><a href="TeacherDashboard.php">Dashboard</a></li>
-                    <li><a href="ViewProfile.php">View Profile</a></li>
-                    <li><a href="StudentList.php">View Student's Profile</a></li>
-                    <li><a href="Schedule.php">Class Schedule</a></li>
-                    <li><a href="NoticeBoard.php">Notice Board</a></li>
-                    <li><a href="ViewSchoolNotice.php">School Notice</a></li>
-                    <li><a href="UploadNotes.php">Upload Notes</a></li>
-                    <li><a href="ViewUploadedNotes(Student).php">See Student Notes</a></li>
-                    <li><a href="StudentListMarks.php">Student Marks</a></li>
-                    <li><a href="LeaveRequest.php">Student Leave Request</a></li>
-                    <li><a href="BookHistory.php">Book History</a></li>
-                    <li><a href="ChangePass.php">Reset Password</a></li>
-                    <li><a href="../Controller/Logout.php">Logout</a></li>
-                </ul>
+
+        
+        <td width="250px">
+          <div id="sidebar">
+            <ul>
+              <li><a href="TeacherDashboard.php">Dashboard</a></li>
+              <li><a href="ViewProfile.php">View Profile</a></li>
+              <li><a href="EditProfile.php">Edit Profile</a></li>
+              <li><a href="StudentList.php">View Student's Profile</a></li>
+              <li><a href="UploadNotes.php">Add Assignment</a></li>
+              <li><a href="UploadNotes.php">Add Lesson Notes</a></li>
+              <li><a href="ViewUploadedNotes(Student).php">View Answer Sheets</a></li>
+              <li><a href="NoticeBoard.php">Student Notices</a></li>
+              <li><a href="ViewSchoolNotice.php">Admin Notices</a></li>
+              <li><a href="StudentListMarks.php">Student Marks</a></li>
+              <li><a href="LeaveRequest.php">Student Leave Request</a></li>
+              <li><a href="ChangePass.php">Reset Password</a></li>
+              <li><a href="../Controller/Logout.php">Logout</a></li>
+            </ul>
+          </div>
+        </td>
 
         </td>
-        <td>
-            <fieldset>
-                <legend>NOTES</legend>
+        
+        <td align="center" >
+          <fieldset>
+            <legend class="textlegend" >NOTES</legend>
             <form class="" action="" method="post">
-                <center>
-									<b>Find Notes:</b><input type="text" name="name" id="name">
-									<input type="button" name="" value="Find" onclick="ajax()">
-								</center>
-				  	<div id="myh1" class="">
-									<br>
-            <?php
-								echo "<table border = 1 width='100%' cellspacing = 0  >
+              <center>
+                <b>Find Notes:</b><input type="text" name="name" id="name">
+                <input type="button" name="" value="Find" onclick="ajax()">
+              </center>
+              <div id="myh1" class="">
+                <br>
+                <?php
+                echo "<table border = 1 width='100%' cellspacing = 0  >
 								<tr align = 'center'>
 								    <td>ID</td>
 								    <td>Notes</td>
 								    <td>Time</td>
                     <td>Action</td>
 								</tr>";
-								for($i = 0; $i<count($GetNotes); $i++){
-								    echo "<tr align = 'center'>
+                for ($i = 0; $i < count($GetNotes); $i++) {
+                  echo "<tr align = 'center'>
 								    <td>{$GetNotes[$i]['id']}</td>
 								    <td>{$GetNotes[$i]['notes']}</td>
 								    <td>{$GetNotes[$i]['time']}</td>
                     <td> <a href='EditNotes.php?id={$GetNotes[$i]['id']}'> Edit </a> | <a href='DeleteNotes.php?id={$GetNotes[$i]['id']}'> Delete </a>  </td>
 								</tr>";
-								}
-								echo "</table>";
-								?>
-             </div>
+                }
+                echo "</table>";
+                ?>
+              </div>
             </form>
-            </fieldset>
+          </fieldset>
         </td>
+        <td align="center"><img height="200px" weight="80px" src="../Resources/Course.jpg" alt=""></td>
       </tr>
-      <?php include("TeacherFooter.php") ?>
+      
     </table>
-
+<?php include("TeacherFooter.php") ?>
   </body>
-</html>
+
+  </html>
 
 
 <?php
 
-	}else{
-		header('location: LoginPage.php');
-	}
+} else {
+  header('location: LoginPage.php');
+}
 
 ?>

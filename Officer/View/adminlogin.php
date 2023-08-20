@@ -21,14 +21,14 @@
     <script src="../Script/adminloginVal.js"></script>
   </head>
   <body>
-    <table border="0" cellspacing="0" width="100%" >
+    <table border="1" cellspacing="0" width="100%" >
       <tr>
         <td>
           <table width="100%">
             <tr>
-              <td><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></td>
+              <td><img height="80px" weight="50px" src="../Resources/logo.png" alt=""></td>
               <td align = "center"><h1 class="text4">Online Student Management System</h1></td>
-              <td align = "right"><a href="../../Home/index.html"><Button class="btn btn-danger">Back</Button></a>
+              <td align = "center"><a href="../../Home/index.html"><Button class="btn btn-danger">Back</Button></a>
               </td>
             </tr>
           </table>
@@ -44,7 +44,7 @@
               <td>
                 <form class="" id="inform" action="../Controller/logCheck.php" onsubmit="return validation()" method="post">
                   <fieldset>
-                    <legend align="center">Officer Login</legend>
+                    <legend class="text3" align="center">Officer Login</legend>
                     <table>
                       <tr>
                         <td colspan="2">

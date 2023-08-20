@@ -33,7 +33,7 @@ function Registration(){
           }
           else {  
 
-            if (isNaN(mobile) || mobile.length != 11){
+            if (isNaN(mobile) || mobile.length != 10){
                 text = "**Please enter valid mobile Number**";
                 error_messege.innerHTML = text;
                 return false;

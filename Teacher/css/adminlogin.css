@@ -54,10 +54,9 @@ input[type="password"] {
   text-transform: uppercase;
 
   color: #000000;
-  
+
   text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
   color: #333333;
-  
 }
 .main-body {
   background-image: url("/Home/Resources/background-body.svg");
@@ -65,3 +64,34 @@ input[type="password"] {
   background-position: center;
   background-repeat: no-repeat;
 }
+.textlegend {
+font-family: Verdana, Geneva, sans-serif;
+font-size: 32px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #2DB50E;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: lowercase;
+}
+.textteacher {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #0d6efd;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+/* Adding padding to the form */
+.padded-form {
+  padding: 20px;
+}
+
+
