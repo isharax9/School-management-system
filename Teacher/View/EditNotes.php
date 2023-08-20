@@ -45,7 +45,7 @@
               <li><a href="UploadNotes.php">Add Lesson Notes</a></li>
               <li><a href="ViewUploadedNotes(Student).php">View Answer Sheets</a></li>
               <li><a href="NoticeBoard.php">Student Notices</a></li>
-              <li><a href="ViewSchoolNotice.php">Admin Notices</a></li>             
+              <li><a href="ViewSchoolNotice.php">View Public Notices</a></li>             
               <li><a href="StudentListMarks.php">Student Marks</a></li>
               <li><a href="LeaveRequest.php">Student Leave Request</a></li>
               <li><a href="ChangePass.php">Reset Password</a></li>

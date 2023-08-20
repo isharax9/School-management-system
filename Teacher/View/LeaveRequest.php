@@ -1,35 +1,29 @@
 <?php
-	session_start();
-  require_once('../Model/DatabaseConnection.php');
-	$Leave = getAllLeaves();
-	if(isset($_COOKIE['flag']))
-	{
+session_start();
+require_once('../Model/DatabaseConnection.php');
+$Leave = getAllLeaves();
+if (isset($_COOKIE['flag'])) {
 ?>
 
 
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
+
   <head>
-    <title>Public Home</title>
+    <title>Leave Request</title>
     <script src="../Script/LeaveRequestSearch(script).js"></script>
   </head>
+
   <body>
-    <table border="1" cellspacing="0" width="80%" >
-    <?php include("TeacherHeader.php") ?>
+    <table border="1" cellspacing="0" width="80%">
+      <?php include("TeacherHeader.php") ?>
       <tr>
-        <tr>
-            <td align="Left"><img height="80px" weight="80px" src="../Resources/student.jpg" alt=""></td>
-            <td align="Center">
-            <b>
-               Student Leave Request
-            </b>
-            </td>
-          </tr>
-        <td height="150px" weight="150px">
-                <td width="250px">
+
+
+        <td width="250px">
           <div id="sidebar">
             <ul>
-                            <li><a href="TeacherDashboard.php">Dashboard</a></li>
+              <li><a href="TeacherDashboard.php">Dashboard</a></li>
               <li><a href="ViewProfile.php">View Profile</a></li>
               <li><a href="EditProfile.php">Edit Profile</a></li>
               <li><a href="StudentList.php">View Student's Profile</a></li>
@@ -37,7 +31,7 @@
               <li><a href="UploadNotes.php">Add Lesson Notes</a></li>
               <li><a href="ViewUploadedNotes(Student).php">View Answer Sheets</a></li>
               <li><a href="NoticeBoard.php">Student Notices</a></li>
-              <li><a href="ViewSchoolNotice.php">Admin Notices</a></li>             
+              <li><a href="ViewSchoolNotice.php">View Public Notices</a></li>
               <li><a href="StudentListMarks.php">Student Marks</a></li>
               <li><a href="LeaveRequest.php">Student Leave Request</a></li>
               <li><a href="ChangePass.php">Reset Password</a></li>
@@ -47,18 +41,18 @@
         </td>
 
         </td>
-        <td>
-            <fieldset>
-                <legend>LEAVE REQUEST</legend>
+        <td align="center">
+          <fieldset >
+            <legend class="textlegend">Student LEAVE REQUEST</legend>
             <form class="" action="" method="post">
-                <center>
-									<b>Find Leave Request of a Student:</b><input type="text" name="name" id="name">
-									<input type="button" name="" value="Find" onclick="ajax()">
-								</center>
-					<div id="myh1" class="">
-									<br>
-            <?php
-								echo "<table border = 1 width='100%' cellspacing = 0  >
+              <center>
+                <b>Find Leave Request of a Student:</b><input type="text" name="name" id="name">
+                <input type="button" name="" value="Find" onclick="ajax()">
+              </center>
+              <div id="myh1" class="">
+                <br>
+                <?php
+                echo "<table border = 1 width='100%' cellspacing = 0  >
 								<tr align = 'center'>
                                     <td>Serial</td>
 								    <td>ID</td>
@@ -68,8 +62,8 @@
                                     <td>Status</td>
                                     <td>Action</td>
 								</tr>";
-								for($i = 0; $i<count($Leave); $i++){
-								    echo "<tr align = 'center'>
+                for ($i = 0; $i < count($Leave); $i++) {
+                  echo "<tr align = 'center'>
                                     <td>{$Leave[$i]['sl']}</td>
 								    <td>{$Leave[$i]['id']}</td>
 								    <td>{$Leave[$i]['name']}</td>
@@ -78,25 +72,27 @@
                                     <td>{$Leave[$i]['action']}</td>
                                     <td> <a href='LeaveAction.php?id={$Leave[$i]['sl']}'> Action </a></td>
 								</tr>";
-								}
-								echo "</table>";
-								?>
-           </div>
+                }
+                echo "</table>";
+                ?>
+              </div>
             </form>
-            </fieldset>
+          </fieldset>
         </td>
+        <td align="center"><img height="200px" weight="80px" src="../Resources/marks.png" alt=""></td>
       </tr>
-      <?php include("TeacherFooter.php") ?>
+      
     </table>
-
+<?php include("TeacherFooter.php") ?>
   </body>
-</html>
+
+  </html>
 
 
 <?php
 
-	}else{
-		header('location: LoginPage.php');
-	}
+} else {
+  header('location: LoginPage.php');
+}
 
 ?>
