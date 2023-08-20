@@ -1,0 +1,149 @@
+#navigation h2{
+    font-size: 25px;
+    text-align: center;
+}
+#navigation h2 a{
+    text-decoration: none;
+    color: #000;
+}
+#navigation h2 a:hover{
+    color: blue;
+}
+#navigation p{
+    color: red;
+    font-size: 20px;
+}
+#sidebar ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 5px 2px;
+}
+#navigation{
+
+}
+#sidebar ul li:last-child{
+    border-bottom: 0;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+#sidebar ul li a:hover{
+    color: blue;
+}
+#header{
+  color: #1a075e;
+
+}
+#header a{
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: inherit;
+
+}
+#header  a:hover{
+    color: red;
+}
+.tab {
+  padding-left: 8px;
+}
+/* #myform{
+  margin-top: 50px;
+  margin-bottom: 50px;
+} */
+
+input[type=submit]{
+  background-color: #4CAF50;
+  width: auto;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  /* width: 100%; */
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+input[type=button]{
+  background-color: #22A7F0;
+  width: auto;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+input[type=button]:hover{
+  opacity: 0.8;
+}
+input[type=reset]{
+  width: auto;
+  color: white;
+  padding: 5px 10px;
+  background-color: #f44336;
+}
+input[type=reset]:hover {
+  opacity: 0.8;
+}
+input[type=text],input[type=email], input[type=password] {
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#myform select{
+  padding: 8px 0px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=gender]{
+  font-size: 30px;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+ #section{
+  padding: 8px 83px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#classE{
+ padding: 8px 69px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+#dob{
+  padding: 8px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#description{
+  padding: 8px 19px;
+  margin: 8px 0;
+  margin-left: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#box a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+
+
+}
+#box a:hover{
+    color: blue;
+}

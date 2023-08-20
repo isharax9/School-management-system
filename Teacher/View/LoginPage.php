@@ -21,13 +21,11 @@
       <td>
         <table width="100%">
           <tr id="header">
-            <td><a href=""><img height="80px" weight="50px" src="../Resources/logo.png" alt=""></a></td>
+            <td align="center"><img height="80px" weight="50px" src="../Resources/logo.png" </td>
             <td align="center">
               <h1 class="text4">Online Student management system</h1>
             </td>
             <td align="center">
-
-
               <a href="../../Home/index.html"><button class="btn btn-outline-dark">Back</button></a>
             </td>
           </tr>
@@ -50,7 +48,7 @@
               <td>
                 <form class="padded-form bg-info-subtle" method="post" id="LoginForm" action="../Controller/LogCheck.php"
                   onsubmit="return LoginValid()">
-                  <fieldset width="5px"><br><br>
+                  <fieldset width="5px">
                     <legend align="center" class="text3">Teacher Login</legend><br>
                     <form class="" action="" method="post">
                       <table>
@@ -63,10 +61,10 @@
                           <td>Password:</td>
                           <td><input type="password" id="password" name="password" value=""></td>
                         </tr>
-                      </table>
+                      </table><br>
                       <input type="checkbox" name="" value=""> Remember Me <br>
                     <br>
-                    <input type="submit" id="submit" name="submit" value="LOGIN"><br><br><br>
+                    <input type="submit" id="submit" name="submit" value="LOGIN">
 
                       <center>
                         <div id="error_messege">
