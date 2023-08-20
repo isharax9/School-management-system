@@ -44,11 +44,11 @@
                     <table>
                       <tr>
                         <td>ID</td>
-                        <td>: <input type="text" id="id" name="id" value=""></td>
+                        <td> <input type="text" id="id" name="id" value=""></td>
                       </tr>
                       <tr>
                         <td>Password</td>
-                        <td>: <input type="password" id="password" name="password" value=""></td>
+                        <td> <input type="password" id="password" name="password" value=""></td>
                       </tr>
                     </table><br>
                     <input type="checkbox" name="" value=""> Remember Me <br>
@@ -62,9 +62,6 @@
                 </form><br>
               </td>
             </tr>
-
-
-
           </table>
         </td>
       </tr>

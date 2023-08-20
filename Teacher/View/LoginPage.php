@@ -53,12 +53,12 @@
                     <form class="" action="" method="post">
                       <table>
                         <tr>
-                          <td>ID:</td>
+                          <td>ID</td>
                           <td><input type="text" id="id" name="ID" value=""></td>
                         </tr>
 
                         <tr>
-                          <td>Password:</td>
+                          <td>Password</td>
                           <td><input type="password" id="password" name="password" value=""></td>
                         </tr>
                       </table><br>

@@ -1,15 +1,7 @@
--- phpMyAdmin SQL Dump
--- version 5.0.4
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Apr 24, 2021 at 07:17 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = "+05:30";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -39,7 +31,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`) VALUES
-('1000', 'Ishara Lakshitha Admin', 'ishara@gmail.com', '11010001.?'),
+('1000', 'Ishara Lakshitha', 'ishara@gmail.com', '11010001#'),
 
 
 -- --------------------------------------------------------

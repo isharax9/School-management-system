@@ -7,9 +7,9 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 ?>
 
 <?php include('sideBar.php'); ?>
-<td> 
+<td align="center"> 
   <fieldset>
-    <legend>Edit Profile</legend>
+    <legend class="textlegend" >Edit Profile</legend>
     <form class="" action="../Controller/editCheck.php" onsubmit="return val()" method="post">
       <table>
         <tr>

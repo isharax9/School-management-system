@@ -1,12 +1,18 @@
 <?php
+
 $title= "Dashboard";
 include('header.php');
 ?>
 
 <?php include('sideBar.php'); ?> 
-        <td>
-          <h1>Welcome to student page</h1>
+        <td align="center">
+          <Div class="h1" >Welcome <?php echo $User['name']; ?></Div> 
+          <div class="text3" >-student-</div>
         </td>
-      </tr>
+        <td><img height="450px" weight="50%" src="../Resources/student.svg"></td>
+      
 
-    <?php include('footer.php'); ?>
+   <?php include('footer.php'); ?> 
+
+
+
