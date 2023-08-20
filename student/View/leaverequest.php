@@ -7,9 +7,9 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 ?>
 
 <?php include('sideBar.php'); ?>
-<td align="center">
+<td align="right">
     <fieldset>
-        <legend class="textlegend">Request for leave </legend>
+        <legend class="textlegend">Study leave Request  </legend>
         <form class="" action="../Controller/leaveCheck.php" onsubmit="return val()" method="post">
             <table>
             <tr>
@@ -59,7 +59,7 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 
         </form>
     </fieldset>
-</td>
+</td><td align="center" ><img height="350px" weight="50%" src="../Resources/studyleave.png"></td>
 </tr>
 
 <?php include('footer.php'); ?>

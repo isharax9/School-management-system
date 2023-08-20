@@ -27,6 +27,7 @@ include('header.php');
         </form>
     </fieldset>
 </td>
+<td><img height="350px" weight="50%" src="../Resources/uploading.png"></td>
 </tr>
 
 <?php include('footer.php'); ?>

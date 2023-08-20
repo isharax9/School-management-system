@@ -6,7 +6,7 @@ $viewmyresult = getUserbyid($_COOKIE['id']);
 ?>
 
 <?php include('sideBar.php'); ?> 
-        <td align="center">
+        <td align="right">
             <fieldset>
                 <legend class="textlegend">MY Result</legend>
             <form class="" action="" method="post"> 
@@ -27,7 +27,7 @@ $viewmyresult = getUserbyid($_COOKIE['id']);
                
             </form>
             </fieldset>
-        </td>
+        </td><td align="center" ><img height="450px" weight="50%" src="../Resources/marks.svg"></td>
       </tr>
 
       <?php include('footer.php'); ?>

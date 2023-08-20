@@ -30,5 +30,7 @@ include('header.php');
         </fieldset>
     </form>
 </td>
+<td align="center" ><img height="250px" weight="50%" src="../Resources/notice.svg"></td>
+
 </tr>
 <?php include('footer.php'); ?>

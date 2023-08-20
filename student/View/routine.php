@@ -1,5 +1,5 @@
 <?php
-$title= "Routine";
+$title= "Timetable";
 require_once('../Model/DatabaseConnection.php');
 $routine=getAllroutine();
 include('header.php');

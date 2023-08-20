@@ -1,5 +1,5 @@
 <?php
-$title = "CHANGE PASSWORD";
+$title = "Reset Password";
 $javascript = "../Script/passval.js";
 include('header.php');
 ?>
@@ -37,6 +37,6 @@ include('header.php');
 			<input type="submit" name="Change" value="Change"> <br>
 		</fieldset>
 	</form>
-</td>
+</td><td align="center" ><img height="350px" weight="50%" src="../Resources/passwordChange.png"></td>
 </tr>
 <?php include('footer.php'); ?>

@@ -6,7 +6,7 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 ?>
 
 <?php include('sideBar.php'); ?> 
-        <td align="center" >
+        <td align="right" >
             <fieldset>
                 <legend class="textlegend" >MY PROFILE</legend>
             <form class="" action="" method="post"> 
@@ -81,7 +81,8 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
                
             </form>
             </fieldset><br>
-            <a href="edit.php" class="btn btn-outline-primary" role="button" >Edit</a>
+            <a href="edit.php" class="btn btn-outline-primary" role="button" >Edit Profile Details</a>
         </td>
+        <td align="center" ><img height="450px" weight="50%" src="../Resources/profile.png"
       </tr>
       <?php include('footer.php'); ?>
