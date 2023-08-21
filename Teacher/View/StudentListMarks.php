@@ -21,22 +21,22 @@ if (isset($_COOKIE['flag'])) {
       <tr>
 
 
-        <td width="250px">
+        <td width="270px">
           <div id="sidebar">
             <ul>
               <li><a href="TeacherDashboard.php">Dashboard</a></li>
-              <li><a href="ViewProfile.php">View Profile</a></li>
-              <li><a href="EditProfile.php">Edit Profile</a></li>
-              <li><a href="StudentList.php">View Student's Profile</a></li>
-              <li><a href="UploadAssignment.php">Add Assignment</a></li>
-              <li><a href="UploadNotes.php">Add Lesson Notes</a></li>
-              <li><a href="ViewUploadedNotes(Student).php">View Answer Sheets</a></li>
-              <li><a href="NoticeBoard.php">Student Notices</a></li>
-              <li><a href="ViewSchoolNotice.php">View Public Notices</a></li>
-              <li><a href="StudentListMarks.php">Student Marks</a></li>
-              <li><a href="LeaveRequest.php">Student Leave Request</a></li>
-              <li><a href="ChangePass.php">Reset Password</a></li>
-              <li><a href="../Controller/Logout.php">Logout</a></li>
+                            <li><a href="ViewProfile.php">View Profile</a></li>
+                            <li><a href="StudentList.php">View Student's Profile</a></li>
+                            <li><a href="UploadAssignment.php">Add Assignment</a></li>
+                            <li><a href="UploadNotes.php">Add Lesson Notes</a></li>
+                            <li><a href="ViewUploadedNotes(Student).php">View Answer Sheets</a></li>
+                            <li><a href="assignmentDashboard.php">Download Answer Sheets</a></li>
+                            <li><a href="NoticeBoard.php">Student Notices</a></li>
+                            <li><a href="ViewSchoolNotice.php">View Public Notices</a></li>
+                            <li><a href="StudentListMarks.php">Student Marks</a></li>
+                            <li><a href="LeaveRequest.php">Student Leave Request</a></li>
+                            <li><a href="ChangePass.php">Reset Password</a></li>
+                            <li><a href="../Controller/Logout.php">Logout</a></li>
             </ul>
           </div>
         </td>
@@ -47,7 +47,7 @@ if (isset($_COOKIE['flag'])) {
             <legend class="textlegend">STUDENT MARKS LIST</legend>
             <form class="" action="" method="post">
               <center>
-                <b>Find Student Marks:</b><input type="text" name="name" id="name">
+                <b>Enter Student Name:</b><input type="text" name="name" id="name">
                 <input type="button" name="" value="Find" onclick="ajax()">
               </center>
               <div id="myh1" class="">
@@ -79,7 +79,7 @@ if (isset($_COOKIE['flag'])) {
               </div>
             </form>
           </fieldset>
-        </td><td align="center"><img height="200px" weight="80px" src="../Resources/grades.svg" alt=""></td>
+        </td><td align="center"><img height="300px" weight="80px" src="../Resources/grades.svg" alt=""></td>
       </tr>
       
     </table>

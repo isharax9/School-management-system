@@ -25,7 +25,7 @@
             </td>
           </tr>
         <td width="150px">
-                <td width="250px">
+                <td width="270px">
           <div id="sidebar">
             <ul>
                             <li><a href="TeacherDashboard.php">Dashboard</a></li>
