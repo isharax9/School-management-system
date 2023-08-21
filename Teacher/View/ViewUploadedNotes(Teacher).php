@@ -74,7 +74,7 @@ if (isset($_COOKIE['flag'])) {
             </form>
           </fieldset>
         </td>
-        <td align="center"><img height="200px" weight="80px" src="../Resources/Course.jpg" alt=""></td>
+     
       </tr>
       
     </table>

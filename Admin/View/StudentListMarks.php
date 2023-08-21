@@ -49,7 +49,7 @@ if (isset($_COOKIE['flag'])) {
                     <td>Subject</td>
                     <td>Roll</td>
                     <td>Marks</td>
-								    <td>Marks Update</td>
+								    
                     <td>Marks Delete</td>
 								</tr>";
                 for ($i = 0; $i < count($MarksList); $i++) {
@@ -59,7 +59,7 @@ if (isset($_COOKIE['flag'])) {
                     <td>{$User['subject']}</td>
                     <td>{$MarksList[$i]['roll']}</td>
                     <td>{$MarksList[$i]['marks']}</td>
-								    <td> <a href='Marks.php?id={$MarksList[$i]['id']}'> Update </a></td>
+								    
                     <td> <a href='DeleteMarks.php?id={$MarksList[$i]['id']}'> Delete </a> </td>
 								</tr>";
                 }

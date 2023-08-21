@@ -14,11 +14,11 @@ include('header.php');
 </div>
 </td>
 <br>
-<td>
+<td align="center">
   <form class="" id="inform" action="../Controller/regCheckStudent.php" onsubmit="return validation()"
     method="post">
     <fieldset>
-      <legend align="center">Student Registration </legend>
+      <legend class="textlegend">Student Registration </legend>
       <table align="center">
         <tr>
           <td colspan="2">

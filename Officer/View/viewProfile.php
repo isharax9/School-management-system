@@ -18,7 +18,7 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 
 <td align="center"> 
 	<fieldset>
-		<legend>View Profile Information</legend>
+		<legend class="textlegend">View Profile Information</legend>
 		<table>
 			<tr>
 				<td>ID</td>

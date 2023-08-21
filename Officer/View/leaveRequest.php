@@ -12,10 +12,10 @@ $UsersList = allUserList();
 </div>
 </td>
 
-<td>
+<td align="center">
 	<form class="" action="regCheckCourse.php" method="post">
 		<fieldset align="center">
-			<legend>Student's leave request list</legend>
+			<legend class="textlegend">Student's leave request list</legend>
 			<?php
 			echo "<table border = 1 width='100%' cellspacing = 0  >
 										<tr align = 'center'>

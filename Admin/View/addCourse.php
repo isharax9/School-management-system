@@ -37,9 +37,7 @@
                               <option value="Eight">Eight</option>
                               <option value="Nine">Nine</option>
                               <option value="Ten">Ten</option>
-                              <option value="Eight">OL</option>
-                              <option value="Nine">AL</option>
-                              <option value="Ten">Degree</option>
+                              
                             </select>
                           </td>
                         <tr>

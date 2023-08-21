@@ -44,6 +44,8 @@
                             <option  <?php  if($updatemyinfo['class']=="Eight"){?> selected="true" <?php } ?>  value="Eight">Eight</option>
                             <option  <?php  if($updatemyinfo['class']=="Nine"){?> selected="true" <?php } ?>  value="Nine">Nine</option>
                             <option  <?php  if($updatemyinfo['class']=="Ten"){?> selected="true" <?php } ?>  value="Ten">Ten</option>
+                            
+                            
                           </select>
                         </td>
                       <tr>

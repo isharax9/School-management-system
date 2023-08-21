@@ -2,6 +2,7 @@
 session_start();
 if (!isset($_COOKIE['flag'])) {
   header('location: adminlogin.php');
+  $User = getUserById($_COOKIE['ID']);
 }
 
 ?>

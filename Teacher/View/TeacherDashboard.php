@@ -10,7 +10,7 @@ if (isset($_COOKIE['flag'])) {
   <html>
 
   <head>
-    <title>Teacher Dashboard</title>
+    <title>Dashboard</title>
   </head>
 
   <body>

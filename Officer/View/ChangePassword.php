@@ -20,7 +20,7 @@ include('header.php');
 <td align="center">
 	<form class="" id="inform" action="../controller/chaPassCheck.php" onsubmit="return validation()" method="post">
 		<fieldset>
-			<legend>Change Password</legend>
+			<legend class="textlegend">Change Password</legend>
 			<table>
 				<tr>
 					<td colspan="2">
