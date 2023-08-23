@@ -1,7 +1,7 @@
 <?php
 
 	$dbuser = 'root';
-	$dbpass = '';
+	$dbpass = '11010001';
 	$host 	= 'localhost';
 	$dbname	= 'school_management_system';
 
