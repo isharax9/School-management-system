@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$dbpass = '';
+$dbpass = '11010001';
 $db = "school_management_system"; 
 
 function getConnection(){
