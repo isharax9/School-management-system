@@ -1,7 +1,7 @@
 <?php
 $title = "add Teacher";
 $js = "../Script/addValidationTeacher.js";
-// $style = "../Style/regester.css";
+$style = "../Style/regester.css";
 include('header.php');
 
 ?>
