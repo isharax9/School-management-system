@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+$host = "localhost:3308";
 $user = "root";
 $dbpass = '11010001';
 $db = "school_management_system";

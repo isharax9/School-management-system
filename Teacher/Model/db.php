@@ -2,7 +2,7 @@
 
 	$dbuser = 'root';
 	$dbpass = '11010001';
-	$host 	= 'localhost';
+	$host 	= 'localhost:3308';
 	$dbname	= 'school_management_system';
 
 
