@@ -44,6 +44,6 @@ if (isset($_POST['submit'])) {
             }
         }
     } else {
-        echo "Mobile must contain 11 digits and integer number only";
+        echo "Mobile must contain 10 digits and integer number only";
     }
 }
