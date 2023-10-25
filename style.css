@@ -1,0 +1,7 @@
+.logo{
+    background-image: url("LMS Web Application Documentation_files/logo.svg");
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

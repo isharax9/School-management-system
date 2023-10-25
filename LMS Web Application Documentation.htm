@@ -1,0 +1,1126 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="LMS Web Application Documentation_files/github-mark-white.svg">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>LMS Web Application Documentation</title>
+    <meta name="author" content="Ishara Lakshitha" />
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-indent: 0;
+        }
+
+        h1 {
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 24pt;
+        }
+
+        h3 {
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 14pt;
+        }
+
+        .s1 {
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        h2 {
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 16pt;
+        }
+
+        p {
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+            margin: 0pt;
+        }
+
+        h4 {
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l1 {
+            padding-left: 0pt;
+            counter-reset: c1 1;
+        }
+
+        #l1>li>*:first-child:before {
+            counter-increment: c1;
+            content: counter(c1, decimal)". ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        #l1>li:first-child>*:first-child:before {
+            counter-increment: c1 0;
+        }
+
+        #l2 {
+            padding-left: 0pt;
+        }
+
+        #l2>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        #l3 {
+            padding-left: 0pt;
+        }
+
+        #l3>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        #l4 {
+            padding-left: 0pt;
+        }
+
+        #l4>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        #l5 {
+            padding-left: 0pt;
+        }
+
+        #l5>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        #l6 {
+            padding-left: 0pt;
+        }
+
+        #l6>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l7 {
+            padding-left: 0pt;
+        }
+
+        #l7>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l8 {
+            padding-left: 0pt;
+            counter-reset: i1 1;
+        }
+
+        #l8>li>*:first-child:before {
+            counter-increment: i1;
+            content: counter(i1, decimal)". ";
+            color: black;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+        }
+
+        #l8>li:first-child>*:first-child:before {
+            counter-increment: i1 0;
+        }
+
+        #l9 {
+            padding-left: 0pt;
+        }
+
+        #l9>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l10 {
+            padding-left: 0pt;
+            counter-reset: k1 1;
+        }
+
+        #l10>li>*:first-child:before {
+            counter-increment: k1;
+            content: counter(k1, decimal)". ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l10>li:first-child>*:first-child:before {
+            counter-increment: k1 0;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l11 {
+            padding-left: 0pt;
+        }
+
+        #l11>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l12 {
+            padding-left: 0pt;
+        }
+
+        #l12>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l13 {
+            padding-left: 0pt;
+        }
+
+        #l13>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l14 {
+            padding-left: 0pt;
+        }
+
+        #l14>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l15 {
+            padding-left: 0pt;
+        }
+
+        #l15>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l16 {
+            padding-left: 0pt;
+        }
+
+        #l16>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l17 {
+            padding-left: 0pt;
+        }
+
+        #l17>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l18 {
+            padding-left: 0pt;
+        }
+
+        #l18>li>*:first-child:before {
+            content: "- ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l19 {
+            padding-left: 0pt;
+            counter-reset: l1 1;
+        }
+
+        #l19>li>*:first-child:before {
+            counter-increment: l1;
+            content: counter(l1, decimal)". ";
+            color: black;
+            font-family: Calibri, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l19>li:first-child>*:first-child:before {
+            counter-increment: l1 0;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <h1 style="padding-top: 6pt;padding-left: 78pt;text-indent: 0pt;text-align: center;">LMS Web Application
+        Documentation</h1>
+    <h3 style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Table of Contents</h3>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <ol id="l1">
+        <li data-list-text="1.">
+            <p class="s1" style="padding-left: 70pt;text-indent: -11pt;text-align: left;">Introduction</p>
+            <ul id="l2">
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        Purpose</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        Technologies Used</p>
+                </li>
+            </ul>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="2.">
+            <p class="s1" style="padding-left: 70pt;text-indent: -11pt;text-align: left;">User Roles</p>
+            <ul id="l3">
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Admin
+                    </p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        Teacher</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        Student</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        Academic Officer</p>
+                </li>
+            </ul>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="3.">
+            <p class="s1" style="padding-left: 70pt;text-indent: -11pt;text-align: left;">Technologies Used</p>
+            <ul id="l4">
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">PHP
+                    </p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">HTML
+                    </p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">CSS
+                        (Bootstrap 5)</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        JavaScript</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Ajax
+                    </p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">MySQL
+                    </p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Git
+                        and GitHub</p>
+                </li>
+            </ul>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="4.">
+            <p class="s1" style="padding-left: 70pt;text-indent: -11pt;text-align: left;">Design Approach</p>
+            <ul id="l5">
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">HTML
+                        and CSS</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        Bootstrap Integration</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        Backend Development with PHP</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">
+                        Frontend-Backend Communication with JavaScript and Ajax</p>
+                </li>
+            </ul>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="5.">
+            <p class="s1" style="padding-left: 70pt;text-indent: -11pt;text-align: left;">Database Structure Overview
+            </p>
+            <ul id="l6">
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 76pt;text-indent: -6pt;text-align: left;">Tables
+                    </p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 76pt;text-indent: -6pt;text-align: left;">
+                        Relationships</p>
+                </li>
+                <li data-list-text="-">
+                    <p class="s1" style="padding-top: 1pt;padding-left: 76pt;text-indent: -6pt;text-align: left;">
+                        Examples</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ul>
+        </li>
+        <li data-list-text="6.">
+            <p class="s1" style="padding-left: 70pt;text-indent: -11pt;text-align: left;">UI Overview</p>
+        </li>
+    </ol>
+    <ul id="l7">
+        <li data-list-text="-">
+            <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Login Page</p>
+        </li>
+        <li data-list-text="-">
+            <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Dashboard</p>
+        </li>
+        <li data-list-text="-">
+            <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Admin Panel
+            </p>
+        </li>
+        <li data-list-text="-">
+            <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Teacher Panel
+            </p>
+        </li>
+        <li data-list-text="-">
+            <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Student Panel
+            </p>
+        </li>
+        <li data-list-text="-">
+            <p class="s1" style="padding-top: 1pt;padding-left: 73pt;text-indent: -6pt;text-align: left;">Academic
+                Officer Panel</p>
+        </li>
+    </ul>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <ol id="l8">
+        <li data-list-text="1.">
+            <h2 style="padding-left: 77pt;text-indent: -18pt;text-align: left;">Introduction</h2>
+            <p style="padding-top: 2pt;padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: left;">The LMS
+                (Learning Management System) Web Application is designed to provide various functionalities to different
+                users based on their roles. The application is developed using a combination of PHP, HTML, CSS
+                (Bootstrap 5), JavaScript, Ajax, MySQL, Git, and GitHub. The application allows users to log in as
+                admin, teacher, student, or academic officer, each with their own set of features and interfaces.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="2.">
+            <h3 style="padding-left: 77pt;text-indent: -18pt;text-align: left;">User Roles</h3>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <h4 style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Admin</h4>
+            <p style="padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: left;">The admin role has access
+                to the admin panel, which enables them to manage users, courses, and other administrative tasks.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <h4 style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Teacher</h4>
+            <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: left;">Teachers
+                can log in and access the teacher panel, where they can manage course content, assignments, and interact
+                with students.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <h4 style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Student</h4>
+            <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;line-height: 107%;text-align: left;">Students
+                can log in and access the student panel, which provides access to course materials, assignments, and
+                communication with teachers.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <h4 style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Academic Officer</h4>
+            <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;line-height: 107%;text-align: left;">The
+                academic officer has a specialized panel for managing academic-related tasks, such as course scheduling,
+                enrollment, and generating reports.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="3.">
+            <h3 style="padding-left: 72pt;text-indent: -13pt;text-align: left;">Technologies Used</h3>
+            <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">The application is built
+                using the following technologies:</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <ul id="l9">
+                <li data-list-text="-">
+                    <p style="padding-left: 64pt;text-indent: -5pt;text-align: left;">PHP: Backend scripting language
+                        for server-side logic.</p>
+                </li>
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 64pt;text-indent: -5pt;text-align: left;">HTML: Markup
+                        language for structuring web content.</p>
+                </li>
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 64pt;text-indent: -5pt;text-align: left;">CSS (Bootstrap
+                        5): Styling framework for creating responsive and visually appealing designs.</p>
+                </li>
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 64pt;text-indent: -5pt;text-align: left;">JavaScript:
+                        Programming language for interactive frontend elements.</p>
+                </li>
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 64pt;text-indent: -5pt;text-align: left;">Ajax:
+                        Asynchronous communication between frontend and backend.</p>
+                </li>
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 64pt;text-indent: -5pt;text-align: left;">MySQL: Database
+                        system for storing and managing application data.</p>
+                </li>
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 64pt;text-indent: -5pt;text-align: left;">Git and GitHub:
+                        Version control and collaborative platform for managing code.</p>
+                </li>
+            </ul>
+        </li>
+        <li data-list-text="4.">
+            <h3 style="padding-top: 1pt;padding-left: 72pt;text-indent: -13pt;text-align: left;">Design Approach</h3>
+            <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: justify;">The
+                application&#39;s design is centered around the integration of HTML and CSS for structuring and styling
+                web pages. Bootstrap 5 is used to enhance the visual design and responsiveness of the application. The
+                backend logic is developed using PHP, enabling dynamic content</p>
+            <p style="padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: justify;">generation. JavaScript
+                and Ajax are employed for seamless communication between the frontend and backend, enabling real-time
+                interactions.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <p style="padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: left;">By following this
+                outline, you can create a simple and organized documentation for your LMS Web Application. Be sure to
+                add detailed descriptions, screenshots, and code snippets to explain each section thoroughly. Good luck
+                with your project!</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="5.">
+            <h3 style="padding-left: 72pt;text-indent: -13pt;text-align: left;">Database Structure Overview</h3>
+        </li>
+    </ol>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <h4 style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Tables</h4>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <ol id="l10">
+        <li data-list-text="1.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">Users</p>
+            <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">- Columns: user_id,
+                username, password, role_id, full_name, email, created_at</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="2.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">Roles</p>
+            <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">- Columns: role_id,
+                role_name</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="3.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">Courses</p>
+            <p style="padding-left: 66pt;text-indent: 0pt;text-align: left;">- Columns: course_id, course_name,
+                course_description, teacher_id</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="4.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">Students</p>
+            <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">- Columns: student_id,
+                user_id, enrollment_date</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="5.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">Teachers</p>
+            <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">- Columns: teacher_id,
+                user_id</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="6.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">Notes</p>
+            <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">- Columns: note_id,
+                user_id, content, created_at</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="7.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">LeaveRequests</p>
+            <p style="padding-left: 66pt;text-indent: 0pt;text-align: left;">- Columns: request_id, student_id, reason,
+                status, created_at</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="8.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">Notices</p>
+        </li>
+    </ol>
+    <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">- Columns: notice_id, title,
+        content, user_id, created_at</p>
+    <h4 style="padding-top: 2pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Relationships</h4>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <ul id="l11">
+        <li data-list-text="-">
+            <p style="padding-left: 64pt;text-indent: -5pt;text-align: left;">Users Table:</p>
+            <ul id="l12">
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 69pt;text-indent: -5pt;text-align: left;">Role ID in the
+                        Users table is a foreign key referencing the Roles table.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ul>
+        </li>
+        <li data-list-text="-">
+            <p style="padding-left: 64pt;text-indent: -5pt;text-align: left;">Courses Table:</p>
+            <ul id="l13">
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 69pt;text-indent: -5pt;text-align: left;">Teacher ID in the
+                        Courses table is a foreign key referencing the Teachers table.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ul>
+        </li>
+        <li data-list-text="-">
+            <p style="padding-left: 64pt;text-indent: -5pt;text-align: left;">Students Table:</p>
+            <ul id="l14">
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 69pt;text-indent: -5pt;text-align: left;">User ID in the
+                        Students table is a foreign key referencing the Users table.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ul>
+        </li>
+        <li data-list-text="-">
+            <p style="padding-left: 64pt;text-indent: -5pt;text-align: left;">Teachers Table:</p>
+            <ul id="l15">
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 69pt;text-indent: -5pt;text-align: left;">User ID in the
+                        Teachers table is a foreign key referencing the Users table.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ul>
+        </li>
+        <li data-list-text="-">
+            <p style="padding-left: 64pt;text-indent: -5pt;text-align: left;">Notes Table:</p>
+            <ul id="l16">
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 69pt;text-indent: -5pt;text-align: left;">User ID in the
+                        Notes table is a foreign key referencing the Users table.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ul>
+        </li>
+        <li data-list-text="-">
+            <p style="padding-left: 64pt;text-indent: -5pt;text-align: left;">LeaveRequests Table:</p>
+            <ul id="l17">
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 69pt;text-indent: -5pt;text-align: left;">Student ID in the
+                        LeaveRequests table is a foreign key referencing the Students table.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ul>
+        </li>
+        <li data-list-text="-">
+            <p style="padding-left: 64pt;text-indent: -5pt;text-align: left;">Notices Table:</p>
+            <ul id="l18">
+                <li data-list-text="-">
+                    <p style="padding-top: 1pt;padding-left: 69pt;text-indent: -5pt;text-align: left;">User ID in the
+                        Notices table is a foreign key referencing the Users table.</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <h4 style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Example Queries</h4>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <ol id="l19">
+        <li data-list-text="1.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">**Retrieve Courses and Associated
+                Teacher&#39;s Name:**</p>
+            <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">```sql</p>
+            <p style="padding-left: 66pt;text-indent: 0pt;line-height: 108%;text-align: left;">SELECT c.course_name,
+                t.user_id, u.full_name AS teacher_name FROM courses c</p>
+            <p style="padding-left: 66pt;text-indent: 0pt;line-height: 108%;text-align: left;">INNER JOIN teachers t ON
+                c.teacher_id = t.teacher_id INNER JOIN users u ON t.user_id = u.user_id;</p>
+            <p style="padding-left: 66pt;text-indent: 0pt;line-height: 13pt;text-align: left;">```</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="2.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">**Retrieve Leave Requests with Student
+                Details:**</p>
+            <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">```sql</p>
+            <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;line-height: 108%;text-align: left;">SELECT
+                r.request_id, s.student_id, u.full_name AS student_name, r.reason, r.status FROM leave_requests r</p>
+            <p style="padding-left: 66pt;text-indent: 0pt;line-height: 108%;text-align: left;">INNER JOIN students s ON
+                r.student_id = s.student_id INNER JOIN users u ON s.user_id = u.user_id;</p>
+            <p style="padding-left: 66pt;text-indent: 0pt;line-height: 13pt;text-align: left;">```</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li data-list-text="3.">
+            <p style="padding-left: 69pt;text-indent: -10pt;text-align: left;">**Retrieve Teacher&#39;s Notes:**</p>
+        </li>
+    </ol>
+    <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;text-align: left;">```sql</p>
+    <p style="padding-top: 1pt;padding-left: 66pt;text-indent: 0pt;line-height: 107%;text-align: left;">SELECT
+        n.note_id, u.full_name AS teacher_name, n.content, n.created_at FROM notes n</p>
+    <p style="padding-left: 66pt;text-indent: 0pt;line-height: 108%;text-align: left;">INNER JOIN users u ON n.user_id =
+        u.user_id WHERE u.role_id = &#39;teacher_role_id&#39;;</p>
+    <p style="padding-left: 66pt;text-indent: 0pt;text-align: left;">```</p>
+    <h3 style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">6. UI Overview</h3>
+    <h4 style="padding-top: 1pt;padding-left: 77pt;text-indent: 0pt;text-align: left;">Main Dashboard</h4>
+    <p style="padding-left: 77pt;text-indent: 0pt;line-height: 108%;text-align: left;">After successful login, users are
+        directed to a dashboard that provides an overview of their roles and tasks.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="624" height="335" alt="image"
+                src="LMS%20Web%20Application%20Documentation_files/Image_001.jpg" /></span></p>
+    <h4 style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Login Page</h4>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: left;">Users are
+        greeted with a login page where they can enter their credentials to access the application based on their role.
+    </p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="624" height="335"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_002.jpg" /></span></p>
+    <h4 style="padding-top: 2pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Admin Panel</h4>
+    <p
+        style="padding-top: 1pt;padding-bottom: 4pt;padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: left;">
+        The admin panel includes functionalities such as user management, course management, and administrative
+        settings.</p>
+    <p style="padding-left: 28pt;text-indent: 0pt;text-align: left;"><span><img width="631" height="338"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_003.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 131pt;text-indent: 0pt;text-align: left;">View profile</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 32pt;text-indent: 0pt;text-align: left;"><span><img width="594" height="319" alt="image"
+                src="LMS%20Web%20Application%20Documentation_files/Image_004.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 131pt;text-indent: 0pt;text-align: left;">Edit profile.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 24pt;text-indent: 0pt;text-align: left;"><span><img width="605" height="325"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_005.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 131pt;text-indent: 0pt;text-align: left;">Change password</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 24pt;text-indent: 0pt;text-align: left;"><span><img width="594" height="319"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_006.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 23pt;text-indent: 0pt;text-align: left;">Subcategories implemented in Admin
+        Panel</p>
+    <p style="padding-top: 9pt;padding-bottom: 1pt;padding-left: 131pt;text-indent: 0pt;text-align: left;">Teacher</p>
+    <p style="padding-left: 13pt;text-indent: 0pt;text-align: left;"><span><img width="608" height="319" alt="image"
+                src="LMS%20Web%20Application%20Documentation_files/Image_007.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 13pt;text-indent: 0pt;text-align: left;"><span><img width="594" height="169"
+                alt="A screen shot of a student management form  Description automatically generated"
+                title="A screen shot of a student management form  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_008.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 131pt;text-indent: 0pt;text-align: left;">Student</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 14pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="730" alt="image"
+                src="LMS%20Web%20Application%20Documentation_files/Image_009.jpg" /></span></p>
+    <p style="padding-left: 15pt;text-indent: 0pt;text-align: left;"><span><img width="608" height="493" alt="image"
+                src="LMS%20Web%20Application%20Documentation_files/Image_010.png" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-top: 2pt;padding-bottom: 4pt;padding-left: 131pt;text-indent: 0pt;text-align: left;">Officer</p>
+    <p style="padding-left: 11pt;text-indent: 0pt;text-align: left;"><span><img width="594" height="319"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_011.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 5pt;text-indent: 0pt;text-align: left;"><span><img width="608" height="326"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_012.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-top: 2pt;padding-left: 131pt;text-indent: 0pt;text-align: left;">Notice board</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 10pt;text-indent: 0pt;text-align: left;"><span><img width="594" height="319"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_013.jpg" /></span></p>
+    <p style="padding-left: 9pt;text-indent: 0pt;text-align: left;"><span><img width="608" height="326"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_014.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 9pt;text-indent: 0pt;text-align: left;"><span><img width="594" height="319"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_015.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 4pt;padding-left: 131pt;text-indent: 0pt;text-align: left;">check
+        results.</p>
+    <p style="padding-left: 7pt;text-indent: 0pt;text-align: left;"><span><img width="608" height="326"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_016.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-top: 8pt;padding-left: 131pt;text-indent: 0pt;text-align: left;">Courses</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 7pt;text-indent: 0pt;text-align: left;"><span><img width="594" height="319"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_017.jpg" /></span></p>
+    <p style="padding-left: 9pt;text-indent: 0pt;text-align: left;"><span><img width="608" height="326"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_018.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-top: 2pt;padding-left: 131pt;text-indent: 0pt;text-align: left;">Leave request</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 18pt;text-indent: 0pt;text-align: left;"><span><img width="588" height="310"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_019.jpg" /></span></p>
+    <h4 style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Teacher Panel</h4>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;line-height: 107%;text-align: left;">The teacher
+        panel allows teachers to manage course content, assignments, and interact with students through announcements
+        and discussions.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_020.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Dashboard</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323" alt="image"
+                src="LMS%20Web%20Application%20Documentation_files/Image_021.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">View Profile
+    </p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_022.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">View Student&#39;s Profile</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_023.jpg" /></span></p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_024.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-top: 2pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Add Assignment</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A person pointing at a screen  Description automatically generated"
+                title="A person pointing at a screen  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_025.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Add Lesson Notes</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 34pt;text-indent: 0pt;text-align: left;"><span><img width="608" height="326"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_026.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 37pt;text-indent: 0pt;text-align: left;"><span><img width="594" height="319"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_027.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">View Answer
+        Sheets</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_028.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Download Answer Sheets</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_029.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Student
+        Notices</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323" alt="image"
+                src="LMS%20Web%20Application%20Documentation_files/Image_030.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">View Public
+        Notices</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_031.jpg" /></span></p>
+    <p style="padding-top: 4pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Student Marks
+    </p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_032.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Student Leave Request</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_033.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Reset Password</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_034.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Logout</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <h4 style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Student Panel</h4>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;line-height: 108%;text-align: left;">The student
+        panel provides students with access to course materials, assignment submissions, grades, and communication with
+        teachers.</p>
+    <p style="padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Dashboard</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_035.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 4pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">View Profile
+    </p>
+    <p style="padding-left: 71pt;text-indent: 0pt;text-align: left;"><span><img width="608" height="326"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_036.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-top: 8pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Teachers
+        Details</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_037.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Download
+        Assignment</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A person sitting on a chair  Description automatically generated"
+                title="A person sitting on a chair  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_038.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Upload Answers</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_039.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Class
+        Timetable</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_040.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Teacher&#39;s Notice</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_041.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">School Notices
+    </p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_042.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Your Results</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A person sitting on a blue arrow pointing up  Description automatically generated"
+                title="A person sitting on a blue arrow pointing up  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_043.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Request for
+        leave</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer screen  Description automatically generated"
+                title="A screenshot of a computer screen  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_044.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Course Details</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_045.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Change Password</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_046.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Logout</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <h4 style="padding-left: 59pt;text-indent: 0pt;text-align: left;">Academic Officer Panel</h4>
+    <p style="padding-top: 1pt;padding-left: 59pt;text-indent: 0pt;line-height: 107%;text-align: left;">The academic
+        officer panel offers tools for managing academic tasks, including course scheduling, enrollment management, and
+        report generation.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-bottom: 1pt;padding-left: 59pt;text-indent: 0pt;text-align: left;">Dashboard</p>
+    <p style="padding-left: 59pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_047.jpg" /></span></p>
+    <p style="padding-top: 2pt;padding-left: 23pt;text-indent: 0pt;text-align: left;">View Profile</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_048.jpg" /></span></p>
+    <p style="padding-top: 9pt;padding-left: 23pt;text-indent: 0pt;text-align: left;">Edit Profile</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_049.jpg" /></span></p>
+    <p style="padding-top: 1pt;padding-left: 23pt;text-indent: 0pt;text-align: left;">Change Password</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_050.jpg" /></span></p>
+    <p style="padding-top: 9pt;padding-left: 23pt;text-indent: 0pt;text-align: left;">Logout</p>
+    <p style="padding-left: 30pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="730"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_051.jpg" /></span></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_052.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_053.jpg" /></span></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screenshot of a computer  Description automatically generated"
+                title="A screenshot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_054.jpg" /></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_055.jpg" /></span></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_056.jpg" /></span></p>
+    <p style="padding-left: 23pt;text-indent: 0pt;text-align: left;"><span><img width="601" height="323"
+                alt="A screen shot of a computer  Description automatically generated"
+                title="A screen shot of a computer  Description automatically generated"
+                src="LMS%20Web%20Application%20Documentation_files/Image_057.jpg" /></span></p>
+</body>
+
+</html>
