@@ -134,7 +134,7 @@ Add screenshots for UI changes
 
 ### Reporting Security Issues
 - **DO NOT** open public issues for security vulnerabilities
-- Email security concerns to: security@schoolsystem.com
+- Email security concerns to: isharax9@gmail.com
 - Include detailed reproduction steps
 - Allow reasonable time for response
 
