@@ -1,0 +1,352 @@
+# School Management System .gitignore
+
+# ===========================================
+# Operating System Files
+# ===========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# Development Tools & IDEs
+# ===========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PhpStorm / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.sublime-session
+
+# Atom
+.atom/
+
+# Eclipse
+.buildpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===========================================
+# Languages & Frameworks
+# ===========================================
+
+# PHP
+composer.phar
+/vendor/
+composer.lock
+.phpunit.result.cache
+phpunit.xml
+
+# Node.js & NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+package-lock.json
+yarn.lock
+
+# Python (if used for tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# ===========================================
+# Web Development
+# ===========================================
+
+# Sass
+.sass-cache/
+*.css.map
+
+# Less
+*.css.map
+
+# Compass
+.compass/
+
+# Grunt
+.grunt/
+
+# Gulp
+.gulp/
+
+# Webpack
+.webpack/
+
+# ===========================================
+# Databases
+# ===========================================
+
+# MySQL
+*.sql.backup
+*.sql.bak
+dump.sql
+backup.sql
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# PostgreSQL
+*.backup
+
+# ===========================================
+# Configuration Files
+# ===========================================
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Database configuration (sensitive)
+config/database.php
+config/db_config.php
+*/config/database.php
+*/config/db_config.php
+
+# Application configuration
+config.local.php
+settings.local.php
+
+# ===========================================
+# Logs & Cache
+# ===========================================
+
+# Log files
+*.log
+logs/
+error.log
+access.log
+debug.log
+
+# Cache directories
+cache/
+tmp/
+temp/
+.cache/
+
+# Session files
+sessions/
+*.sess
+
+# ===========================================
+# File Uploads & User Content
+# ===========================================
+
+# Upload directories
+uploads/
+files/
+documents/
+images/user_uploads/
+attachments/
+
+# But keep upload directories structure
+!uploads/.gitkeep
+!files/.gitkeep
+!documents/.gitkeep
+
+# ===========================================
+# Build & Distribution
+# ===========================================
+
+# Minified files
+*.min.js
+*.min.css
+
+# Build directories
+build/
+dist/
+public/build/
+
+# Asset compilation
+mix-manifest.json
+
+# ===========================================
+# Version Control
+# ===========================================
+
+# Git
+.git/
+.gitattributes
+
+# SVN
+.svn/
+
+# Mercurial
+.hg/
+
+# ===========================================
+# Documentation Build
+# ===========================================
+
+# Generated documentation
+docs/_build/
+docs/html/
+docs/latex/
+site/
+
+# ===========================================
+# Testing
+# ===========================================
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+coverage/
+.coverage
+
+# Test databases
+test.db
+test.sqlite
+
+# ===========================================
+# Deployment
+# ===========================================
+
+# Deployment scripts
+deploy.sh
+deploy.php
+.deploy/
+
+# Server specific files
+.htaccess.local
+robots.txt.local
+
+# ===========================================
+# Backup Files
+# ===========================================
+
+# File backups
+*.backup
+*.bak
+*.orig
+*.tmp
+*~
+
+# ===========================================
+# Security & Sensitive Data
+# ===========================================
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# SSL certificates
+*.crt
+*.csr
+*.cer
+*.p12
+*.pfx
+
+# API keys and secrets
+secrets.txt
+api_keys.txt
+.secrets
+
+# ===========================================
+# Project Specific
+# ===========================================
+
+# Student management system specific uploads
+Admin/uploads/
+Teacher/uploads/
+Student/uploads/
+Officer/uploads/
+
+# Assignment files (if large)
+assignments/
+submissions/
+
+# Profile pictures
+profile_pictures/
+avatars/
+
+# System generated files
+system_reports/
+generated_reports/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# ===========================================
+# Comments for Contributors
+# ===========================================
+
+# This .gitignore file is designed to exclude:
+# 1. Sensitive configuration files
+# 2. User-uploaded content
+# 3. System-generated files
+# 4. Development tools cache
+# 5. Build artifacts
+# 6. Log files
+# 
+# When adding new exclusions:
+# - Add comments explaining why
+# - Group related exclusions together
+# - Use specific patterns when possible
+# - Consider security implications
