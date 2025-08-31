@@ -1609,8 +1609,8 @@ class StudentControllerTest extends PHPUnit\Framework\TestCase
 
 ### 📧 **Development Contact**
 - **Project Lead**: [Ishara Lakshitha Bandara](https://github.com/isharax9)
-- **Email**: development@schoolsystem.com
-- **Discord**: [Join our community](https://discord.gg/schoolsystem)
+- **Email**: isharax9@gmail.com
+- **Telegram**: [Contact via Telegram](https://t.me/mac_knight141)
 
 ---
 
@@ -1664,7 +1664,10 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 ### **🌟 Ishara Lakshitha Bandara**
 
 [![GitHub](https://img.shields.io/badge/GitHub-isharax9-black?style=for-the-badge&logo=github)](https://github.com/isharax9)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ishara-lakshitha)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/isharax9/)
+[![Instagram](https://img.shields.io/badge/Instagram-mac__knight141-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/mac_knight141/)
+[![Twitter](https://img.shields.io/badge/Twitter-isharax9-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/isharax9)
+[![Telegram](https://img.shields.io/badge/Telegram-mac__knight141-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/mac_knight141)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-green?style=for-the-badge&logo=globe)](https://isharax9.github.io)
 
 **Full-Stack Developer | Educational Technology Enthusiast | Open Source Contributor**
@@ -1675,7 +1678,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 - 🎓 **Education**: Computer Science & Engineering
 - 💼 **Specialization**: Web Development, Educational Technology
 - 🌟 **Mission**: Making education accessible through technology
-- 📧 **Contact**: ishara.dev@example.com
+- 📧 **Contact**: isharax9@gmail.com
 
 #### **🚀 Other Projects**
 - 🌐 **Portfolio**: [isharax9.github.io](https://isharax9.github.io)
@@ -1736,15 +1739,15 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 **🐛 Technical Issues**
 - **GitHub Issues**: [Report bugs](https://github.com/isharax9/School-management-system/issues)
 - **Stack Overflow**: Tag your questions with `school-management-system`
-- **Email Support**: technical.support@schoolsystem.com
+- **Email Support**: isharax9@gmail.com
 
 </td>
 <td width="50%">
 
 **💬 General Questions**
 - **Community Forum**: [Join discussions](https://community.schoolsystem.com)
-- **Discord Server**: [Real-time chat](https://discord.gg/schoolsystem)
-- **Email**: general.inquiry@schoolsystem.com
+- **Telegram**: [Real-time chat](https://t.me/mac_knight141)
+- **Email**: isharax9@gmail.com
 
 </td>
 </tr>
@@ -1777,7 +1780,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 </details>
 
 #### **⏰ Support Hours**
-- **🌍 Community Support**: 24/7 via GitHub Issues and Discord
+- **🌍 Community Support**: 24/7 via GitHub Issues and Telegram
 - **📧 Email Support**: Monday-Friday, 9 AM - 5 PM (UTC)
 - **🆘 Emergency Issues**: Critical security issues handled within 24 hours
 
@@ -1795,7 +1798,7 @@ For educational institutions requiring dedicated support:
 - **📊 Training Sessions**: Staff training and onboarding
 - **🏥 Priority Response**: Guaranteed response times
 
-**Contact**: premium.support@schoolsystem.com
+**Contact**: isharax9@gmail.com
 
 ---
 
